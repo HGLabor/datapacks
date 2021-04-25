@@ -1,0 +1,40 @@
+{
+  "name": "skywars:island",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "feature": "skywars:jungle/mega_jungle_tree",
+        "projection": "rigid",
+        "element_type": "minecraft:feature_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "feature": "skywars:jungle/jungle_bush",
+        "projection": "rigid",
+        "element_type": "minecraft:feature_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "skywars:vegetation/warped_fungus",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "skywars:vegetation/crimson_fungus",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

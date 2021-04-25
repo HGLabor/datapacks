@@ -1,0 +1,49 @@
+{
+  "scale": 0.2,
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "grass_color_modifier": "swamp",
+    "sky_color": 7907327,
+    "foliage_color": 6975545,
+    "fog_color": 12638463,
+    "water_color": 6388580,
+    "water_fog_color": 2302743
+  },
+  "surface_builder": "minecraft:nope",
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "starts": [
+    "skywars:swamp"
+     ],
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "player_spawn_friendly": false,
+  "precipitation": "none",
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "category": "none",
+  "depth": 0.1
+}

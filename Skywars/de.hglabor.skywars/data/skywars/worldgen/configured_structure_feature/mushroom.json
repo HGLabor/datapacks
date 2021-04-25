@@ -1,0 +1,7 @@
+{
+  "config": {
+    "start_pool": "skywars:island/mushroom",
+    "size": 6
+  },
+  "type": "minecraft:bastion_remnant"
+}
