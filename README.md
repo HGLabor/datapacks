@@ -1,3 +1,7 @@
 # datapacks
-All worldgenerators and datapacks for HGLabor by Womble, Ken and Sulfenir.
-The HG-Worldgenerator is not open source.
+Datapacks for HGLabor.de by Womble, Ken and Sulfenir. 
+- Bingo: Datapack to change loot (Open source)
+- Skywars: Worldgenerator to generate Skywars islands (Open source)
+- Survival: Worldgenerator to generate the minecraft:moon2 (Open source)
+- UHC: Worldgenerator to generate the UHC-Biomes (Open source)
+- HG: Worldgenerator to generate the HG-Biomes (not open source)
