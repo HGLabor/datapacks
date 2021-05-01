@@ -1,0 +1,72 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "feature": {
+                  "config": {
+                    "feature": {
+                      "config": {
+                        "target": {
+                          "block": "minecraft:gravel",
+                          "predicate_type": "minecraft:block_match"
+                        },
+                        "state": {
+                          "Name": "minecraft:snow_block"
+                        },
+                        "size": 24
+                      },
+                      "type": "minecraft:ore"
+                    },
+                    "decorator": {
+                      "config": {
+                        "bottom_offset": 130,
+                        "top_offset": 0,
+                        "maximum": 20
+                      },
+                      "type": "minecraft:range"
+                    }
+                  },
+                  "type": "minecraft:decorated"
+                },
+                "decorator": {
+                  "config": {
+                    "noise_to_count_ratio": -1,
+                    "noise_factor": 60.0,
+                    "noise_offset": -0.6
+                  },
+                  "type": "minecraft:count_noise_biased"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "decorator": {
+              "config": {
+                "noise_to_count_ratio": 1,
+                "noise_factor": 60.0,
+                "noise_offset": 0.7
+              },
+              "type": "minecraft:count_noise_biased"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 128
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

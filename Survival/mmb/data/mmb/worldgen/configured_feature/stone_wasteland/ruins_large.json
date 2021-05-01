@@ -1,0 +1,83 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "state_provider": {
+              "entries": [
+                {
+                  "weight": 2,
+                  "data": {
+                    "Name": "minecraft:stone_bricks"
+                  }
+                },
+                {
+                  "weight": 3,
+                  "data": {
+                    "Name": "minecraft:mossy_stone_bricks"
+                  }
+                },
+                {
+                  "weight": 5,
+                  "data": {
+                    "Name": "minecraft:cracked_stone_bricks"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:polished_andesite"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:chiseled_stone_bricks"
+                  }
+                },
+                {
+                  "weight": 2,
+                  "data": {
+                    "Name": "minecraft:infested_cracked_stone_bricks"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:infested_stone_bricks"
+                  }
+                }
+              ],
+              "type": "minecraft:weighted_state_provider"
+            }
+          },
+          "type": "minecraft:block_pile"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "noise_to_count_ratio": 20,
+        "noise_factor": 100.0,
+        "noise_offset": -0.7
+      },
+      "type": "minecraft:count_noise_biased"
+    }
+  },
+  "type": "minecraft:decorated"
+}

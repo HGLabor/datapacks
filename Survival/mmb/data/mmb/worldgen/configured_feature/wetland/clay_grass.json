@@ -1,0 +1,54 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "Name": "minecraft:grass"
+            },
+            "place_on": [
+              {
+                "Name": "minecraft:clay"
+              }
+            ],
+            "place_in": [
+              {
+                "Name": "minecraft:air"
+              }
+            ],
+            "place_under": [
+              {
+                "Name": "minecraft:air"
+              }
+            ]
+          },
+          "type": "minecraft:simple_block"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 3,
+        "extra_chance": 0.85,
+        "extra_count": -1
+      },
+      "type": "minecraft:count_extra"
+    }
+  },
+  "type": "minecraft:decorated"
+}

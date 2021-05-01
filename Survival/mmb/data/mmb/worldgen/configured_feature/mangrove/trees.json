@@ -1,0 +1,83 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": "mmb:mangrove/mangrove/1",
+                "chance": 0.1
+              },
+              {
+                "feature": "mmb:mangrove/mangrove/2_x",
+                "chance": 0.0475
+              },
+              {
+                "feature": "mmb:mangrove/mangrove/2_z",
+                "chance": 0.05
+              },
+              {
+                "feature": "mmb:mangrove/mangrove/3_x",
+                "chance": 0.15
+              },
+              {
+                "feature": "mmb:mangrove/mangrove/3_z",
+                "chance": 0.175
+              },
+              {
+                "feature": "mmb:mangrove/mangrove/4",
+                "chance": 0.2
+              },
+              {
+                "feature": "mmb:mangrove/mangrove/5_x",
+                "chance": 0.1
+              },
+              {
+                "feature": "mmb:mangrove/mangrove/5_z",
+                "chance": 0.11
+              },
+              {
+                "feature": "mmb:mangrove/mangrove/shrub_1",
+                "chance": 0.4
+              },
+              {
+                "feature": "mmb:mangrove/mangrove/shrub_2",
+                "chance": 0.3
+              },
+              {
+                "feature": "mmb:mangrove/mangrove/shrub_3",
+                "chance": 0.6
+              }
+            ],
+            "default": "mmb:mangrove/mangrove/shrub_4"
+          },
+          "type": "minecraft:random_selector"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:top_solid_heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 2,
+        "extra_chance": 0.25,
+        "extra_count": 1
+      },
+      "type": "minecraft:count_extra"
+    }
+  },
+  "type": "minecraft:decorated"
+}

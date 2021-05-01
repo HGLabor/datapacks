@@ -1,0 +1,105 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "feature": {
+                  "config": {
+                    "feature_false": {
+                      "config": {
+                        "can_replace": true,
+                        "project": false,
+                        "need_water": false,
+                        "xspread": 0,
+                        "yspread": 0,
+                        "zspread": 0,
+                        "whitelist": [
+                          {
+                            "Name": "minecraft:magma_block"
+                          }
+                        ],
+                        "blacklist": [],
+                        "tries": 1,
+                        "state_provider": {
+                          "state": {
+                            "Properties": {
+                              "age": "0",
+                              "east": "false",
+                              "north": "false",
+                              "south": "false",
+                              "west": "false",
+                              "up": "false"
+                            },
+                            "Name": "minecraft:fire"
+                          },
+                          "type": "minecraft:simple_state_provider"
+                        },
+                        "block_placer": {
+                          "type": "minecraft:simple_block_placer"
+                        }
+                      },
+                      "type": "minecraft:random_patch"
+                    },
+                    "feature_true": {
+                      "config": {
+                        "target": {
+                          "Name": "minecraft:grass_path"
+                        },
+                        "state": {
+                          "Name": "minecraft:magma_block"
+                        },
+                        "radius": 0
+                      },
+                      "type": "minecraft:netherrack_replace_blobs"
+                    }
+                  },
+                  "type": "minecraft:random_boolean_selector"
+                },
+                "decorator": {
+                  "config": {
+                    "count": 4
+                  },
+                  "type": "minecraft:count"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "decorator": {
+              "config": {
+                "noise_to_count_ratio": -1,
+                "noise_factor": 64.0,
+                "noise_offset": 0.885
+              },
+              "type": "minecraft:count_noise_biased"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap_world_surface"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 32
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

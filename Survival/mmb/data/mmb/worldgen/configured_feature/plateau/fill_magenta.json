@@ -1,0 +1,12 @@
+{
+  "config": {
+    "height": 98,
+    "state": {
+      "Properties": {
+        "facing": "east"
+      },
+      "Name": "minecraft:magenta_glazed_terracotta"
+    }
+  },
+  "type": "minecraft:fill_layer"
+}

@@ -1,0 +1,75 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "features": [
+                  {
+                    "config": {
+                      "target": {
+                        "block": "minecraft:grass_block",
+                        "probability": 0.0125,
+                        "predicate_type": "minecraft:random_block_match"
+                      },
+                      "state": {
+                        "Name": "minecraft:stone"
+                      },
+                      "size": 64
+                    },
+                    "type": "minecraft:ore"
+                  },
+                  {
+                    "config": {
+                      "target": {
+                        "block": "minecraft:grass_block",
+                        "probability": 0.00625,
+                        "predicate_type": "minecraft:random_block_match"
+                      },
+                      "state": {
+                        "Name": "minecraft:gravel"
+                      },
+                      "size": 64
+                    },
+                    "type": "minecraft:ore"
+                  }
+                ]
+              },
+              "type": "minecraft:simple_random_selector"
+            },
+            "decorator": {
+              "config": {
+                "count": 4
+              },
+              "type": "minecraft:count"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "top_solid_heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "chance": 3
+      },
+      "type": "minecraft:chance"
+    }
+  },
+  "type": "minecraft:decorated"
+}

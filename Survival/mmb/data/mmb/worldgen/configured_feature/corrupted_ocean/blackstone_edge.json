@@ -1,0 +1,95 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "feature": {
+                  "config": {
+                    "can_replace": true,
+                    "project": false,
+                    "need_water": false,
+                    "xspread": 1,
+                    "yspread": 1,
+                    "zspread": 1,
+                    "whitelist": [
+                      {
+                        "Name": "minecraft:gravel"
+                      }
+                    ],
+                    "blacklist": [],
+                    "tries": 27,
+                    "state_provider": {
+                      "state": {
+                        "Name": "minecraft:blackstone"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "block_placer": {
+                      "min_size": 1,
+                      "extra_size": 2,
+                      "type": "minecraft:column_placer"
+                    }
+                  },
+                  "type": "minecraft:random_patch"
+                },
+                "decorator": {
+                  "config": {
+                    "noise_to_count_ratio": -1,
+                    "noise_factor": 120.0,
+                    "noise_offset": -0.0375
+                  },
+                  "type": "minecraft:count_noise_biased"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "decorator": {
+              "config": {
+                "noise_to_count_ratio": 1,
+                "noise_factor": 120.0,
+                "noise_offset": 0.075
+              },
+              "type": "minecraft:count_noise_biased"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:top_solid_heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "outer": {
+          "config": {
+            "count": 128
+          },
+          "type": "minecraft:count"
+        },
+        "inner": {
+          "config": {
+            "count": 10
+          },
+          "type": "minecraft:count"
+        }
+      },
+      "type": "minecraft:decorated"
+    }
+  },
+  "type": "minecraft:decorated"
+}

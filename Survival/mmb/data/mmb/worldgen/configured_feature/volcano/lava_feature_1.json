@@ -1,0 +1,54 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": "mmb:volcano/mini_volcano_1",
+                "chance": 0.075
+              },
+              {
+                "feature": "mmb:volcano/mini_volcano_2",
+                "chance": 0.2
+              },
+              {
+                "feature": "mmb:volcano/lava_lake",
+                "chance": 0.95
+              }
+            ],
+            "default": {
+              "config": {},
+              "type": "minecraft:no_op"
+            }
+          },
+          "type": "minecraft:random_selector"
+        },
+        "decorator": {
+          "config": {
+            "noise_to_count_ratio": 1,
+            "noise_factor": 320.0,
+            "noise_offset": -0.21
+          },
+          "type": "minecraft:count_noise_biased"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "outer": {
+          "config": {},
+          "type": "minecraft:iceberg"
+        },
+        "inner": {
+          "config": {},
+          "type": "minecraft:heightmap_world_surface"
+        }
+      },
+      "type": "minecraft:decorated"
+    }
+  },
+  "type": "minecraft:decorated"
+}

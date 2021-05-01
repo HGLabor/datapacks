@@ -1,0 +1,96 @@
+{
+  "name": "mmb:tribal_village/house",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "location": "mmb:tribal_village/house_1",
+        "processors": "mmb:tribal_village_generic",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "mmb:tribal_village/house_2",
+        "processors": "mmb:tribal_village_generic",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "mmb:tribal_village/house_3",
+        "processors": "mmb:tribal_village_generic",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "mmb:tribal_village/house_4",
+        "processors": "mmb:tribal_village_generic",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "mmb:tribal_village/house_5",
+        "processors": "mmb:tribal_village_generic",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "mmb:tribal_village/workstations_1",
+        "processors": "mmb:tribal_village_generic",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "mmb:tribal_village/workstations_2",
+        "processors": "mmb:tribal_village_generic",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "mmb:tribal_village/workstations_3",
+        "processors": "mmb:tribal_village_generic",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "mmb:tribal_village/workstations_4",
+        "processors": "mmb:tribal_village_generic",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "mmb:tribal_village/animal_pen",
+        "processors": "mmb:tribal_village_generic",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

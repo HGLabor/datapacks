@@ -1,0 +1,52 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "state": {
+              "Name": "minecraft:sand"
+            },
+            "radius": {
+              "base": 1,
+              "spread": 1
+            },
+            "half_height": 2,
+            "targets": [
+              {
+                "Name": "minecraft:dirt"
+              },
+              {
+                "Name": "minecraft:clay"
+              }
+            ]
+          },
+          "type": "minecraft:disk"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:top_solid_heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "noise_to_count_ratio": 3,
+        "noise_factor": 160.0,
+        "noise_offset": 0.5
+      },
+      "type": "minecraft:count_noise_biased"
+    }
+  },
+  "type": "minecraft:decorated"
+}

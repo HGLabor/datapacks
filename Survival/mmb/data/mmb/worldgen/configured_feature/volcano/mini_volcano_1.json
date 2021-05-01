@@ -1,0 +1,122 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "features": [
+          {
+            "feature": {
+              "config": {
+                "to_place": {
+                  "Name": "minecraft:dirt"
+                },
+                "place_on": [
+                  {
+                    "Name": "minecraft:blackstone"
+                  }
+                ],
+                "place_in": [
+                  {
+                    "Name": "minecraft:air"
+                  }
+                ],
+                "place_under": [
+                  {
+                    "Name": "minecraft:air"
+                  }
+                ]
+              },
+              "type": "minecraft:simple_block"
+            },
+            "chance": 0.5
+          }
+        ],
+        "default": {
+          "config": {
+            "max_water_depth": 0,
+            "ignore_vines": true,
+            "heightmap": "MOTION_BLOCKING",
+            "minimum_size": {
+              "limit": 1,
+              "lower_size": 0,
+              "upper_size": 1,
+              "type": "minecraft:two_layers_feature_size"
+            },
+            "decorators": [
+              {
+                "provider": {
+                  "state": {
+                    "Properties": {
+                      "level": "0"
+                    },
+                    "Name": "minecraft:lava"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "type": "minecraft:alter_ground"
+              }
+            ],
+            "trunk_provider": {
+              "state": {
+                "Properties": {
+                  "level": "0"
+                },
+                "Name": "minecraft:lava"
+              },
+              "type": "minecraft:simple_state_provider"
+            },
+            "leaves_provider": {
+              "entries": [
+                {
+                  "weight": 86,
+                  "data": {
+                    "Name": "minecraft:blackstone"
+                  }
+                },
+                {
+                  "weight": 3,
+                  "data": {
+                    "Name": "minecraft:obsidian"
+                  }
+                },
+                {
+                  "weight": 6,
+                  "data": {
+                    "Name": "minecraft:magma_block"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:iron_ore"
+                  }
+                }
+              ],
+              "type": "minecraft:weighted_state_provider"
+            },
+            "foliage_placer": {
+              "radius": 1,
+              "offset": 0,
+              "height": 15,
+              "type": "minecraft:blob_foliage_placer"
+            },
+            "trunk_placer": {
+              "base_height": 9,
+              "height_rand_a": 2,
+              "height_rand_b": 1,
+              "type": "minecraft:straight_trunk_placer"
+            }
+          },
+          "type": "minecraft:tree"
+        }
+      },
+      "type": "minecraft:random_selector"
+    },
+    "decorator": {
+      "config": {
+        "count": 40
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

@@ -1,0 +1,403 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "max_water_depth": 0,
+                    "ignore_vines": true,
+                    "heightmap": "OCEAN_FLOOR",
+                    "minimum_size": {
+                      "limit": 1,
+                      "lower_size": 0,
+                      "upper_size": 1,
+                      "type": "minecraft:two_layers_feature_size"
+                    },
+                    "decorators": [],
+                    "trunk_provider": {
+                      "state": {
+                        "Properties": {
+                          "axis": "y"
+                        },
+                        "Name": "minecraft:polished_basalt"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "leaves_provider": {
+                      "state": {
+                        "Properties": {},
+                        "Name": "minecraft:dead_bubble_coral_block"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "foliage_placer": {
+                      "radius": 2,
+                      "offset": 0,
+                      "height": 3,
+                      "type": "minecraft:blob_foliage_placer"
+                    },
+                    "trunk_placer": {
+                      "base_height": 5,
+                      "height_rand_a": 3,
+                      "height_rand_b": 0,
+                      "type": "minecraft:straight_trunk_placer"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "chance": 0.3
+              },
+              {
+                "feature": {
+                  "config": {
+                    "max_water_depth": 0,
+                    "ignore_vines": true,
+                    "heightmap": "OCEAN_FLOOR",
+                    "minimum_size": {
+                      "limit": 1,
+                      "lower_size": 0,
+                      "upper_size": 1,
+                      "type": "minecraft:two_layers_feature_size"
+                    },
+                    "decorators": [],
+                    "trunk_provider": {
+                      "state": {
+                        "Properties": {
+                          "axis": "y"
+                        },
+                        "Name": "minecraft:basalt"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "leaves_provider": {
+                      "state": {
+                        "Properties": {},
+                        "Name": "minecraft:dead_horn_coral_block"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "foliage_placer": {
+                      "radius": 2,
+                      "offset": 0,
+                      "height": 3,
+                      "type": "minecraft:blob_foliage_placer"
+                    },
+                    "trunk_placer": {
+                      "base_height": 5,
+                      "height_rand_a": 3,
+                      "height_rand_b": 0,
+                      "type": "minecraft:straight_trunk_placer"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "chance": 0.15
+              },
+              {
+                "feature": {
+                  "config": {
+                    "max_water_depth": 0,
+                    "ignore_vines": true,
+                    "heightmap": "OCEAN_FLOOR",
+                    "minimum_size": {
+                      "limit": 1,
+                      "lower_size": 0,
+                      "upper_size": 1,
+                      "type": "minecraft:two_layers_feature_size"
+                    },
+                    "decorators": [],
+                    "trunk_provider": {
+                      "state": {
+                        "Properties": {
+                          "axis": "y"
+                        },
+                        "Name": "minecraft:polished_basalt"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "leaves_provider": {
+                      "state": {
+                        "Properties": {},
+                        "Name": "minecraft:dead_tube_coral_block"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "foliage_placer": {
+                      "radius": 2,
+                      "offset": 0,
+                      "height": 3,
+                      "type": "minecraft:blob_foliage_placer"
+                    },
+                    "trunk_placer": {
+                      "base_height": 5,
+                      "height_rand_a": 3,
+                      "height_rand_b": 0,
+                      "type": "minecraft:straight_trunk_placer"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "chance": 0.2
+              },
+              {
+                "feature": {
+                  "config": {
+                    "max_water_depth": 0,
+                    "ignore_vines": true,
+                    "heightmap": "OCEAN_FLOOR",
+                    "minimum_size": {
+                      "limit": 1,
+                      "lower_size": 0,
+                      "upper_size": 1,
+                      "type": "minecraft:two_layers_feature_size"
+                    },
+                    "decorators": [],
+                    "trunk_provider": {
+                      "state": {
+                        "Properties": {
+                          "axis": "y"
+                        },
+                        "Name": "minecraft:basalt"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "leaves_provider": {
+                      "state": {
+                        "Properties": {},
+                        "Name": "minecraft:dead_bubble_coral_block"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "foliage_placer": {
+                      "radius": 2,
+                      "offset": 0,
+                      "height": 3,
+                      "type": "minecraft:blob_foliage_placer"
+                    },
+                    "trunk_placer": {
+                      "base_height": 5,
+                      "height_rand_a": 3,
+                      "height_rand_b": 0,
+                      "type": "minecraft:straight_trunk_placer"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "chance": 0.075
+              },
+              {
+                "feature": {
+                  "config": {
+                    "max_water_depth": 0,
+                    "ignore_vines": true,
+                    "heightmap": "OCEAN_FLOOR",
+                    "minimum_size": {
+                      "limit": 1,
+                      "lower_size": 0,
+                      "upper_size": 1,
+                      "type": "minecraft:two_layers_feature_size"
+                    },
+                    "decorators": [],
+                    "trunk_provider": {
+                      "state": {
+                        "Properties": {
+                          "axis": "y"
+                        },
+                        "Name": "minecraft:polished_basalt"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "leaves_provider": {
+                      "state": {
+                        "Properties": {},
+                        "Name": "minecraft:dead_fire_coral_block"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "foliage_placer": {
+                      "radius": 2,
+                      "offset": 0,
+                      "height": 3,
+                      "type": "minecraft:blob_foliage_placer"
+                    },
+                    "trunk_placer": {
+                      "base_height": 6,
+                      "height_rand_a": 2,
+                      "height_rand_b": 0,
+                      "type": "minecraft:straight_trunk_placer"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "chance": 0.05
+              },
+              {
+                "feature": {
+                  "config": {
+                    "max_water_depth": 2147483647,
+                    "ignore_vines": true,
+                    "heightmap": "MOTION_BLOCKING",
+                    "minimum_size": {
+                      "middle_size": 1,
+                      "upper_size": 2,
+                      "limit": 1,
+                      "upper_limit": 1,
+                      "lower_size": 0,
+                      "type": "minecraft:three_layers_feature_size"
+                    },
+                    "decorators": [],
+                    "trunk_provider": {
+                      "state": {
+                        "Properties": {
+                          "axis": "y"
+                        },
+                        "Name": "minecraft:basalt"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "leaves_provider": {
+                      "state": {
+                        "Name": "minecraft:dead_horn_coral_block"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "foliage_placer": {
+                      "radius": 0,
+                      "offset": 0,
+                      "type": "minecraft:dark_oak_foliage_placer"
+                    },
+                    "trunk_placer": {
+                      "base_height": 7,
+                      "height_rand_a": 3,
+                      "height_rand_b": 1,
+                      "type": "minecraft:dark_oak_trunk_placer"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "chance": 0.075
+              },
+              {
+                "feature": {
+                  "config": {
+                    "max_water_depth": 2147483647,
+                    "ignore_vines": true,
+                    "heightmap": "MOTION_BLOCKING",
+                    "minimum_size": {
+                      "middle_size": 1,
+                      "upper_size": 2,
+                      "limit": 1,
+                      "upper_limit": 1,
+                      "lower_size": 0,
+                      "type": "minecraft:three_layers_feature_size"
+                    },
+                    "decorators": [],
+                    "trunk_provider": {
+                      "state": {
+                        "Properties": {
+                          "axis": "y"
+                        },
+                        "Name": "minecraft:basalt"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "leaves_provider": {
+                      "state": {
+                        "Name": "minecraft:dead_bubble_coral_block"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "foliage_placer": {
+                      "radius": 0,
+                      "offset": 0,
+                      "type": "minecraft:dark_oak_foliage_placer"
+                    },
+                    "trunk_placer": {
+                      "base_height": 7,
+                      "height_rand_a": 3,
+                      "height_rand_b": 1,
+                      "type": "minecraft:dark_oak_trunk_placer"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "chance": 0.05
+              }
+            ],
+            "default": {
+              "config": {
+                "max_water_depth": 0,
+                "ignore_vines": true,
+                "heightmap": "OCEAN_FLOOR",
+                "minimum_size": {
+                  "limit": 1,
+                  "lower_size": 0,
+                  "upper_size": 1,
+                  "type": "minecraft:two_layers_feature_size"
+                },
+                "decorators": [],
+                "trunk_provider": {
+                  "state": {
+                    "Properties": {
+                      "axis": "y"
+                    },
+                    "Name": "minecraft:polished_basalt"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "leaves_provider": {
+                  "state": {
+                    "Properties": {},
+                    "Name": "minecraft:dead_horn_coral_block"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "foliage_placer": {
+                  "radius": 2,
+                  "offset": 0,
+                  "height": 3,
+                  "type": "minecraft:blob_foliage_placer"
+                },
+                "trunk_placer": {
+                  "base_height": 5,
+                  "height_rand_a": 3,
+                  "height_rand_b": 0,
+                  "type": "minecraft:straight_trunk_placer"
+                }
+              },
+              "type": "minecraft:tree"
+            }
+          },
+          "type": "minecraft:random_selector"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 6,
+        "extra_chance": 0.4,
+        "extra_count": 2
+      },
+      "type": "minecraft:count_extra"
+    }
+  },
+  "type": "minecraft:decorated"
+}

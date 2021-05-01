@@ -1,0 +1,212 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "features": [
+                  {
+                    "config": {
+                      "feature": {
+                        "config": {
+                          "can_replace": false,
+                          "project": false,
+                          "need_water": false,
+                          "xspread": 0,
+                          "yspread": 0,
+                          "zspread": 0,
+                          "whitelist": [
+                            {
+                              "Properties": {
+                                "snowy": "false"
+                              },
+                              "Name": "minecraft:grass_block"
+                            }
+                          ],
+                          "blacklist": [],
+                          "tries": 1,
+                          "state_provider": {
+                            "state": {
+                              "Properties": {
+                                "age": "1",
+                                "leaves": "none",
+                                "stage": "0"
+                              },
+                              "Name": "minecraft:bamboo"
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          },
+                          "block_placer": {
+                            "min_size": 1,
+                            "extra_size": 2,
+                            "type": "minecraft:column_placer"
+                          }
+                        },
+                        "type": "minecraft:random_patch"
+                      },
+                      "decorator": {
+                        "config": {},
+                        "type": "minecraft:heightmap"
+                      }
+                    },
+                    "type": "minecraft:decorated"
+                  },
+                  {
+                    "config": {
+                      "feature": {
+                        "config": {
+                          "to_place": {
+                            "Properties": {
+                              "age": "1",
+                              "leaves": "small",
+                              "stage": "0"
+                            },
+                            "Name": "minecraft:bamboo"
+                          },
+                          "place_on": [
+                            {
+                              "Properties": {
+                                "age": "1",
+                                "leaves": "none",
+                                "stage": "0"
+                              },
+                              "Name": "minecraft:bamboo"
+                            }
+                          ],
+                          "place_in": [
+                            {
+                              "Name": "minecraft:air"
+                            }
+                          ],
+                          "place_under": [
+                            {
+                              "Name": "minecraft:air"
+                            }
+                          ]
+                        },
+                        "type": "minecraft:simple_block"
+                      },
+                      "decorator": {
+                        "config": {},
+                        "type": "minecraft:heightmap"
+                      }
+                    },
+                    "type": "minecraft:decorated"
+                  },
+                  {
+                    "config": {
+                      "feature": {
+                        "config": {
+                          "to_place": {
+                            "Properties": {
+                              "age": "1",
+                              "leaves": "large",
+                              "stage": "0"
+                            },
+                            "Name": "minecraft:bamboo"
+                          },
+                          "place_on": [
+                            {
+                              "Properties": {
+                                "age": "1",
+                                "leaves": "small",
+                                "stage": "0"
+                              },
+                              "Name": "minecraft:bamboo"
+                            }
+                          ],
+                          "place_in": [
+                            {
+                              "Name": "minecraft:air"
+                            }
+                          ],
+                          "place_under": [
+                            {
+                              "Name": "minecraft:air"
+                            }
+                          ]
+                        },
+                        "type": "minecraft:simple_block"
+                      },
+                      "decorator": {
+                        "config": {},
+                        "type": "minecraft:heightmap"
+                      }
+                    },
+                    "type": "minecraft:decorated"
+                  },
+                  {
+                    "config": {
+                      "feature": {
+                        "config": {
+                          "to_place": {
+                            "Properties": {
+                              "age": "1",
+                              "leaves": "large",
+                              "stage": "1"
+                            },
+                            "Name": "minecraft:bamboo"
+                          },
+                          "place_on": [
+                            {
+                              "Properties": {
+                                "age": "1",
+                                "leaves": "large",
+                                "stage": "0"
+                              },
+                              "Name": "minecraft:bamboo"
+                            }
+                          ],
+                          "place_in": [
+                            {
+                              "Name": "minecraft:air"
+                            }
+                          ],
+                          "place_under": [
+                            {
+                              "Name": "minecraft:air"
+                            }
+                          ]
+                        },
+                        "type": "minecraft:simple_block"
+                      },
+                      "decorator": {
+                        "config": {},
+                        "type": "minecraft:heightmap"
+                      }
+                    },
+                    "type": "minecraft:decorated"
+                  }
+                ]
+              },
+              "type": "minecraft:simple_random_selector"
+            },
+            "decorator": {
+              "config": {
+                "count": 64
+              },
+              "type": "minecraft:count"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 0,
+        "extra_chance": 0.4,
+        "extra_count": 1
+      },
+      "type": "minecraft:count_extra"
+    }
+  },
+  "type": "minecraft:decorated"
+}

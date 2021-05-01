@@ -1,0 +1,24 @@
+{
+  "name": "mmb:pillager_settlement/main_road",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "mmb:pillager_settlement/main_road_1",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "mmb:pillager_settlement/main_road_2",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

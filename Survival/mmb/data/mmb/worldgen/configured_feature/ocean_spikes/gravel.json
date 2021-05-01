@@ -1,0 +1,62 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "state": {
+              "Name": "minecraft:gravel"
+            },
+            "radius": 4,
+            "half_height": 2,
+            "targets": [
+              {
+                "Name": "minecraft:stone"
+              },
+              {
+                "Name": "minecraft:granite"
+              },
+              {
+                "Name": "minecraft:diorite"
+              },
+              {
+                "Name": "minecraft:andesite"
+              },
+              {
+                "Name": "minecraft:dirt"
+              },
+              {
+                "Name": "minecraft:coal_ore"
+              },
+              {
+                "Name": "minecraft:iron_ore"
+              }
+            ]
+          },
+          "type": "minecraft:disk"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:top_solid_heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 4
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

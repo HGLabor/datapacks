@@ -1,0 +1,36 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "features": [
+          {
+            "feature": "mmb:ancient_oaks/big_tree",
+            "chance": 0.25
+          },
+          {
+            "feature": "mmb:ancient_oaks/small_rock",
+            "chance": 0.075
+          },
+          {
+            "feature": "mmb:ancient_oaks/big_rock",
+            "chance": 0.05
+          }
+        ],
+        "default": {
+          "config": {},
+          "type": "minecraft:no_op"
+        }
+      },
+      "type": "minecraft:random_selector"
+    },
+    "decorator": {
+      "config": {
+        "noise_to_count_ratio": 1,
+        "noise_factor": 7.0,
+        "noise_offset": 0.0
+      },
+      "type": "minecraft:count_noise_biased"
+    }
+  },
+  "type": "minecraft:decorated"
+}

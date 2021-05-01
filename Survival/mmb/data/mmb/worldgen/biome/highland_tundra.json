@@ -1,0 +1,184 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "sky_color": 7379184,
+    "fog_color": 12638463,
+    "foliage_color": 14733344,
+    "grass_color": 11022376,
+    "water_color": 4221152,
+    "water_fog_color": 528448
+  },
+  "surface_builder": "mmb:mossy_mountain",
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ],
+    "liquid": []
+  },
+  "features": [
+    [],
+    [
+      "mmb:lake_water_rare",
+      "minecraft:lake_lava"
+    ],
+    [],
+    [
+      "minecraft:monster_room"
+    ],
+    [],
+    [],
+    [
+      "mmb:ore_dirt_70",
+      "mmb:ore_gravel_63",
+      "mmb:ore_granite_63",
+      "mmb:ore_diorite_63",
+      "mmb:ore_andesite_63",
+      "minecraft:ore_coal",
+      "minecraft:ore_iron",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
+      "minecraft:ore_lapis",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel",
+      "minecraft:ore_emerald"
+    ],
+    [
+      "mmb:heather_highlands/grass_low",
+      "mmb:heather_highlands/spruce_trees",
+      "mmb:heather_highlands/oak_shrubs",
+      "mmb:heather_highlands/grass_mid",
+      "mmb:heather_highlands/spruce_shrubs",
+      "mmb:heather_highlands/grass",
+      "mmb:heather_highlands/berries",
+      "mmb:heather_highlands/flowers",
+      "mmb:heather_highlands/grass_high",
+      "mmb:heather_highlands/snow_high",
+      "mmb:heather_highlands/snow_low",
+      "mmb:heather_highlands/snow_noise_0",
+      "mmb:heather_highlands/snow_noise_1",
+      "mmb:heather_highlands/snow_noise_2",
+      "mmb:heather_highlands/snow_noise_3",
+      "mmb:heather_highlands/snow_noise_4",
+      "mmb:heather_highlands/snow_noise_5",
+      "mmb:heather_highlands/stone"
+    ],
+    [
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "starts": [
+    "minecraft:mineshaft",
+    "minecraft:stronghold",
+    "minecraft:ruined_portal_mountain"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 12,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 6,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 4,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "player_spawn_friendly": false,
+  "precipitation": "rain",
+  "temperature": 0.18,
+  "downfall": 0.3,
+  "category": "extreme_hills",
+  "depth": 1.1,
+  "scale": 0.45
+}

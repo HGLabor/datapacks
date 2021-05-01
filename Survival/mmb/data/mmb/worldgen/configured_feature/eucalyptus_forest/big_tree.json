@@ -1,0 +1,231 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "features": [
+                  {
+                    "config": {
+                      "max_water_depth": 0,
+                      "ignore_vines": false,
+                      "heightmap": "OCEAN_FLOOR_WG",
+                      "minimum_size": {
+                        "limit": 0,
+                        "lower_size": 0,
+                        "upper_size": 0,
+                        "type": "minecraft:two_layers_feature_size"
+                      },
+                      "decorators": [],
+                      "trunk_provider": {
+                        "state": {
+                          "Properties": {
+                            "axis": "y"
+                          },
+                          "Name": "minecraft:stripped_oak_log"
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      },
+                      "leaves_provider": {
+                        "state": {
+                          "Properties": {
+                            "persistent": "false",
+                            "distance": "7"
+                          },
+                          "Name": "minecraft:oak_leaves"
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      },
+                      "foliage_placer": {
+                        "radius": 0,
+                        "offset": 0,
+                        "crown_height": 3,
+                        "type": "minecraft:mega_pine_foliage_placer"
+                      },
+                      "trunk_placer": {
+                        "base_height": 30,
+                        "height_rand_a": 2,
+                        "height_rand_b": 2,
+                        "type": "minecraft:giant_trunk_placer"
+                      }
+                    },
+                    "type": "minecraft:tree"
+                  },
+                  {
+                    "config": {
+                      "max_water_depth": 0,
+                      "ignore_vines": false,
+                      "heightmap": "OCEAN_FLOOR_WG",
+                      "minimum_size": {
+                        "limit": 0,
+                        "lower_size": 0,
+                        "upper_size": 0,
+                        "type": "minecraft:two_layers_feature_size"
+                      },
+                      "decorators": [],
+                      "trunk_provider": {
+                        "state": {
+                          "Properties": {
+                            "axis": "y"
+                          },
+                          "Name": "minecraft:stripped_oak_log"
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      },
+                      "leaves_provider": {
+                        "state": {
+                          "Properties": {
+                            "persistent": "false",
+                            "distance": "7"
+                          },
+                          "Name": "minecraft:oak_leaves"
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      },
+                      "foliage_placer": {
+                        "radius": 1,
+                        "offset": 0,
+                        "crown_height": 3,
+                        "type": "minecraft:mega_pine_foliage_placer"
+                      },
+                      "trunk_placer": {
+                        "base_height": 27,
+                        "height_rand_a": 2,
+                        "height_rand_b": 2,
+                        "type": "minecraft:giant_trunk_placer"
+                      }
+                    },
+                    "type": "minecraft:tree"
+                  },
+                  {
+                    "config": {
+                      "max_water_depth": 0,
+                      "ignore_vines": false,
+                      "heightmap": "OCEAN_FLOOR_WG",
+                      "minimum_size": {
+                        "limit": 0,
+                        "lower_size": 0,
+                        "upper_size": 0,
+                        "type": "minecraft:two_layers_feature_size"
+                      },
+                      "decorators": [],
+                      "trunk_provider": {
+                        "state": {
+                          "Properties": {
+                            "axis": "y"
+                          },
+                          "Name": "minecraft:stripped_oak_log"
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      },
+                      "leaves_provider": {
+                        "state": {
+                          "Properties": {
+                            "persistent": "false",
+                            "distance": "7"
+                          },
+                          "Name": "minecraft:oak_leaves"
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      },
+                      "foliage_placer": {
+                        "radius": 2,
+                        "offset": 0,
+                        "crown_height": 3,
+                        "type": "minecraft:mega_pine_foliage_placer"
+                      },
+                      "trunk_placer": {
+                        "base_height": 24,
+                        "height_rand_a": 2,
+                        "height_rand_b": 2,
+                        "type": "minecraft:giant_trunk_placer"
+                      }
+                    },
+                    "type": "minecraft:tree"
+                  },
+                  {
+                    "config": {
+                      "max_water_depth": 0,
+                      "ignore_vines": false,
+                      "heightmap": "OCEAN_FLOOR_WG",
+                      "minimum_size": {
+                        "limit": 0,
+                        "lower_size": 0,
+                        "upper_size": 0,
+                        "type": "minecraft:two_layers_feature_size"
+                      },
+                      "decorators": [],
+                      "trunk_provider": {
+                        "state": {
+                          "Properties": {
+                            "axis": "y"
+                          },
+                          "Name": "minecraft:stripped_oak_log"
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      },
+                      "leaves_provider": {
+                        "state": {
+                          "Properties": {
+                            "persistent": "false",
+                            "distance": "7"
+                          },
+                          "Name": "minecraft:oak_leaves"
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      },
+                      "foliage_placer": {
+                        "radius": 3,
+                        "offset": 3,
+                        "height": 5,
+                        "type": "minecraft:fancy_foliage_placer"
+                      },
+                      "trunk_placer": {
+                        "base_height": 22,
+                        "height_rand_a": 0,
+                        "height_rand_b": 0,
+                        "type": "minecraft:giant_trunk_placer"
+                      }
+                    },
+                    "type": "minecraft:tree"
+                  }
+                ]
+              },
+              "type": "minecraft:simple_random_selector"
+            },
+            "decorator": {
+              "config": {
+                "count": 28
+              },
+              "type": "minecraft:count"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "chance": 48
+      },
+      "type": "minecraft:chance"
+    }
+  },
+  "type": "minecraft:decorated"
+}

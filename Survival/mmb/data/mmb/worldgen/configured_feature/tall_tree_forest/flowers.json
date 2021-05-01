@@ -1,0 +1,93 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "can_replace": true,
+            "project": false,
+            "need_water": false,
+            "xspread": 9,
+            "yspread": 5,
+            "zspread": 9,
+            "whitelist": [],
+            "blacklist": [],
+            "tries": 20,
+            "state_provider": {
+              "entries": [
+                {
+                  "weight": 4,
+                  "data": {
+                    "Name": "minecraft:poppy"
+                  }
+                },
+                {
+                  "weight": 8,
+                  "data": {
+                    "Name": "minecraft:lily_of_the_valley"
+                  }
+                },
+                {
+                  "weight": 16,
+                  "data": {
+                    "Name": "minecraft:allium"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:red_tulip"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:orange_tulip"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:white_tulip"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:pink_tulip"
+                  }
+                }
+              ],
+              "type": "minecraft:weighted_state_provider"
+            },
+            "block_placer": {
+              "type": "minecraft:simple_block_placer"
+            }
+          },
+          "type": "minecraft:flower"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap_world_surface"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "chance": 2
+      },
+      "type": "minecraft:chance"
+    }
+  },
+  "type": "minecraft:decorated"
+}

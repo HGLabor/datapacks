@@ -1,0 +1,438 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "features": [
+          {
+            "config": {
+              "can_replace": true,
+              "project": false,
+              "need_water": false,
+              "xspread": 0,
+              "yspread": 56,
+              "zspread": 0,
+              "whitelist": [],
+              "blacklist": [
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Properties": {
+                    "level": "0"
+                  },
+                  "Name": "minecraft:water"
+                }
+              ],
+              "tries": 64,
+              "state_provider": {
+                "state": {
+                  "Name": "minecraft:stone"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "block_placer": {
+                "min_size": 10,
+                "extra_size": 5,
+                "type": "minecraft:column_placer"
+              }
+            },
+            "type": "minecraft:random_patch"
+          },
+          {
+            "config": {
+              "can_replace": true,
+              "project": false,
+              "need_water": false,
+              "xspread": 1,
+              "yspread": 56,
+              "zspread": 1,
+              "whitelist": [],
+              "blacklist": [
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Properties": {
+                    "level": "0"
+                  },
+                  "Name": "minecraft:water"
+                }
+              ],
+              "tries": 320,
+              "state_provider": {
+                "state": {
+                  "Name": "minecraft:stone"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "block_placer": {
+                "min_size": 4,
+                "extra_size": 4,
+                "type": "minecraft:column_placer"
+              }
+            },
+            "type": "minecraft:random_patch"
+          },
+          {
+            "config": {
+              "can_replace": true,
+              "project": false,
+              "need_water": false,
+              "xspread": 2,
+              "yspread": 52,
+              "zspread": 1,
+              "whitelist": [],
+              "blacklist": [
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Properties": {
+                    "level": "0"
+                  },
+                  "Name": "minecraft:water"
+                }
+              ],
+              "tries": 448,
+              "state_provider": {
+                "state": {
+                  "Name": "minecraft:stone"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "block_placer": {
+                "min_size": 4,
+                "extra_size": 4,
+                "type": "minecraft:column_placer"
+              }
+            },
+            "type": "minecraft:random_patch"
+          },
+          {
+            "config": {
+              "can_replace": true,
+              "project": false,
+              "need_water": false,
+              "xspread": 1,
+              "yspread": 52,
+              "zspread": 2,
+              "whitelist": [],
+              "blacklist": [
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Properties": {
+                    "level": "0"
+                  },
+                  "Name": "minecraft:water"
+                }
+              ],
+              "tries": 448,
+              "state_provider": {
+                "state": {
+                  "Name": "minecraft:stone"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "block_placer": {
+                "min_size": 4,
+                "extra_size": 4,
+                "type": "minecraft:column_placer"
+              }
+            },
+            "type": "minecraft:random_patch"
+          },
+          {
+            "config": {
+              "can_replace": true,
+              "project": false,
+              "need_water": false,
+              "xspread": 2,
+              "yspread": 48,
+              "zspread": 2,
+              "whitelist": [],
+              "blacklist": [
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Properties": {
+                    "level": "0"
+                  },
+                  "Name": "minecraft:water"
+                }
+              ],
+              "tries": 448,
+              "state_provider": {
+                "state": {
+                  "Name": "minecraft:stone"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "block_placer": {
+                "min_size": 8,
+                "extra_size": 4,
+                "type": "minecraft:column_placer"
+              }
+            },
+            "type": "minecraft:random_patch"
+          },
+          {
+            "config": {
+              "can_replace": true,
+              "project": false,
+              "need_water": false,
+              "xspread": 1,
+              "yspread": 40,
+              "zspread": 3,
+              "whitelist": [],
+              "blacklist": [
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Properties": {
+                    "level": "0"
+                  },
+                  "Name": "minecraft:water"
+                }
+              ],
+              "tries": 384,
+              "state_provider": {
+                "state": {
+                  "Name": "minecraft:stone"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "block_placer": {
+                "min_size": 4,
+                "extra_size": 4,
+                "type": "minecraft:column_placer"
+              }
+            },
+            "type": "minecraft:random_patch"
+          },
+          {
+            "config": {
+              "can_replace": true,
+              "project": false,
+              "need_water": false,
+              "xspread": 3,
+              "yspread": 40,
+              "zspread": 1,
+              "whitelist": [],
+              "blacklist": [
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Properties": {
+                    "level": "0"
+                  },
+                  "Name": "minecraft:water"
+                }
+              ],
+              "tries": 384,
+              "state_provider": {
+                "state": {
+                  "Name": "minecraft:stone"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "block_placer": {
+                "min_size": 4,
+                "extra_size": 4,
+                "type": "minecraft:column_placer"
+              }
+            },
+            "type": "minecraft:random_patch"
+          },
+          {
+            "config": {
+              "can_replace": true,
+              "project": false,
+              "need_water": false,
+              "xspread": 3,
+              "yspread": 32,
+              "zspread": 3,
+              "whitelist": [],
+              "blacklist": [
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Properties": {
+                    "level": "0"
+                  },
+                  "Name": "minecraft:water"
+                }
+              ],
+              "tries": 384,
+              "state_provider": {
+                "state": {
+                  "Name": "minecraft:stone"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "block_placer": {
+                "min_size": 4,
+                "extra_size": 4,
+                "type": "minecraft:column_placer"
+              }
+            },
+            "type": "minecraft:random_patch"
+          },
+          {
+            "config": {
+              "can_replace": true,
+              "project": false,
+              "need_water": false,
+              "xspread": 4,
+              "yspread": 16,
+              "zspread": 2,
+              "whitelist": [],
+              "blacklist": [
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Properties": {
+                    "level": "0"
+                  },
+                  "Name": "minecraft:water"
+                }
+              ],
+              "tries": 320,
+              "state_provider": {
+                "state": {
+                  "Name": "minecraft:stone"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "block_placer": {
+                "min_size": 8,
+                "extra_size": 4,
+                "type": "minecraft:column_placer"
+              }
+            },
+            "type": "minecraft:random_patch"
+          },
+          {
+            "config": {
+              "can_replace": true,
+              "project": false,
+              "need_water": false,
+              "xspread": 2,
+              "yspread": 16,
+              "zspread": 4,
+              "whitelist": [],
+              "blacklist": [
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Properties": {
+                    "level": "0"
+                  },
+                  "Name": "minecraft:water"
+                }
+              ],
+              "tries": 320,
+              "state_provider": {
+                "state": {
+                  "Name": "minecraft:stone"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "block_placer": {
+                "min_size": 8,
+                "extra_size": 4,
+                "type": "minecraft:column_placer"
+              }
+            },
+            "type": "minecraft:random_patch"
+          },
+          {
+            "config": {
+              "can_replace": true,
+              "project": false,
+              "need_water": false,
+              "xspread": 4,
+              "yspread": 2,
+              "zspread": 3,
+              "whitelist": [],
+              "blacklist": [
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Properties": {
+                    "level": "0"
+                  },
+                  "Name": "minecraft:water"
+                }
+              ],
+              "tries": 200,
+              "state_provider": {
+                "state": {
+                  "Name": "minecraft:stone"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "block_placer": {
+                "min_size": 8,
+                "extra_size": 8,
+                "type": "minecraft:column_placer"
+              }
+            },
+            "type": "minecraft:random_patch"
+          },
+          {
+            "config": {
+              "can_replace": true,
+              "project": false,
+              "need_water": false,
+              "xspread": 3,
+              "yspread": 2,
+              "zspread": 4,
+              "whitelist": [],
+              "blacklist": [
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Properties": {
+                    "level": "0"
+                  },
+                  "Name": "minecraft:water"
+                }
+              ],
+              "tries": 200,
+              "state_provider": {
+                "state": {
+                  "Name": "minecraft:stone"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "block_placer": {
+                "min_size": 8,
+                "extra_size": 8,
+                "type": "minecraft:column_placer"
+              }
+            },
+            "type": "minecraft:random_patch"
+          }
+        ]
+      },
+      "type": "minecraft:simple_random_selector"
+    },
+    "decorator": {
+      "config": {
+        "count": 120
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

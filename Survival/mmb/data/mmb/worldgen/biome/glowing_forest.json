@@ -1,0 +1,166 @@
+{
+  "starts": [
+    "minecraft:mineshaft",
+    "minecraft:stronghold"
+  ],
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "misc": [],
+    "water_creature": [],
+    "creature": [
+      {
+        "type": "minecraft:trader_llama",
+        "weight": 20,
+        "minCount": 3,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cat",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:mule",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 80,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 200,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "player_spawn_friendly": true,
+  "surface_builder": "minecraft:grass",
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "mmb:glowing_forest/plateau_center",
+      "mmb:glowing_forest/plateau_edge",
+      "mmb:glowing_forest/plateau_base",
+      "mmb:glowing_forest/plateau_grass"
+    ],
+    [
+      "mmb:lake_water_uncommon"
+    ],
+    [],
+    [
+      "minecraft:monster_room"
+    ],
+    [],
+    [
+      "mmb:glowing_forest/big_tree",
+      "mmb:glowing_forest/shrooms",
+      "mmb:glowing_forest/small_trees",
+      "mmb:glowing_forest/remove_gravel"
+    ],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
+      "minecraft:ore_coal",
+      "minecraft:ore_iron",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
+      "minecraft:ore_lapis",
+      "minecraft:disk_sand"
+    ],
+    [],
+    [
+      "mmb:glowing_forest/grass",
+      "mmb:glowing_forest/flowers",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:spring_lava",
+      "minecraft:spring_water"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "scale": 0.1,
+  "temperature": 1.0,
+  "downfall": 1.0,
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "music": {
+      "sound": "minecraft:music.creative",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "sky_color": 9998591,
+    "fog_color": 12636415,
+    "foliage_color": 5300472,
+    "grass_color": 6349048,
+    "water_color": 11563216,
+    "water_fog_color": 11573440,
+    "particle": {
+      "options": {
+        "type": "minecraft:end_rod"
+      },
+      "probability": 6.25e-05
+    }
+  },
+  "precipitation": "rain",
+  "category": "forest",
+  "depth": 0.35
+}

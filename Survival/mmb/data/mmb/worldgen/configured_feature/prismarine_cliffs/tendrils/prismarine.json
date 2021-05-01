@@ -1,0 +1,38 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "to_place": {
+          "Name": "minecraft:prismarine"
+        },
+        "place_on": [
+          {
+            "Name": "minecraft:smooth_sandstone"
+          },
+          {
+            "Name": "minecraft:air"
+          }
+        ],
+        "place_in": [
+          {
+            "Name": "minecraft:smooth_sandstone"
+          }
+        ],
+        "place_under": [
+          {
+            "Name": "minecraft:air"
+          }
+        ]
+      },
+      "type": "minecraft:simple_block"
+    },
+    "decorator": {
+      "config": {
+        "step": "liquid",
+        "probability": 0.95
+      },
+      "type": "minecraft:carving_mask"
+    }
+  },
+  "type": "minecraft:decorated"
+}

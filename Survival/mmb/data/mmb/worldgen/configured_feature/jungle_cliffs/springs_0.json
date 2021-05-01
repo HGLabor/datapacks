@@ -1,0 +1,76 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "feature": {
+                  "config": {
+                    "rock_count": 4,
+                    "hole_count": 0,
+                    "valid_blocks": [
+                      "minecraft:grass_block",
+                      "minecraft:water",
+                      "minecraft:air"
+                    ],
+                    "state": {
+                      "Properties": {
+                        "falling": "true"
+                      },
+                      "Name": "minecraft:water"
+                    },
+                    "requires_block_below": false
+                  },
+                  "type": "minecraft:spring_feature"
+                },
+                "decorator": {
+                  "config": {
+                    "bottom_offset": 105,
+                    "top_offset": 0,
+                    "maximum": 10
+                  },
+                  "type": "minecraft:range"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "decorator": {
+              "config": {},
+              "type": "minecraft:square"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {
+                "count": 128
+              },
+              "type": "minecraft:count"
+            },
+            "inner": {
+              "config": {
+                "count": 16
+              },
+              "type": "minecraft:count"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "noise_to_count_ratio": -1,
+        "noise_factor": 7.0,
+        "noise_offset": 0.4
+      },
+      "type": "minecraft:count_noise_biased"
+    }
+  },
+  "type": "minecraft:decorated"
+}

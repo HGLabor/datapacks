@@ -1,0 +1,75 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "feature": {
+                  "config": {
+                    "rock_count": 4,
+                    "hole_count": 1,
+                    "valid_blocks": [
+                      "minecraft:stripped_warped_hyphae",
+                      "minecraft:water"
+                    ],
+                    "state": {
+                      "Properties": {
+                        "falling": "true"
+                      },
+                      "Name": "minecraft:water"
+                    },
+                    "requires_block_below": true
+                  },
+                  "type": "minecraft:spring_feature"
+                },
+                "decorator": {
+                  "config": {
+                    "bottom_offset": 80,
+                    "top_offset": 0,
+                    "maximum": 31
+                  },
+                  "type": "minecraft:range"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "decorator": {
+              "config": {},
+              "type": "minecraft:square"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {
+                "count": 128
+              },
+              "type": "minecraft:count"
+            },
+            "inner": {
+              "config": {
+                "count": 30
+              },
+              "type": "minecraft:count"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "noise_to_count_ratio": -1,
+        "noise_factor": 3.0,
+        "noise_offset": 0.85
+      },
+      "type": "minecraft:count_noise_biased"
+    }
+  },
+  "type": "minecraft:decorated"
+}

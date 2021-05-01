@@ -1,0 +1,24 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "target": {
+          "Properties": {
+            "facing": "east"
+          },
+          "Name": "minecraft:magenta_glazed_terracotta"
+        },
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "radius": 48
+      },
+      "type": "minecraft:netherrack_replace_blobs"
+    },
+    "decorator": {
+      "config": {},
+      "type": "minecraft:heightmap"
+    }
+  },
+  "type": "minecraft:decorated"
+}

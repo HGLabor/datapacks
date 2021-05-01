@@ -1,0 +1,105 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "features": [
+          {
+            "feature": {
+              "config": {
+                "target": {
+                  "Name": "minecraft:blackstone"
+                },
+                "state": {
+                  "Name": "minecraft:dirt"
+                },
+                "radius": 0
+              },
+              "type": "minecraft:netherrack_replace_blobs"
+            },
+            "chance": 0.4
+          },
+          {
+            "feature": "mmb:volcano/mini_volcano_2_body",
+            "chance": 0.25
+          },
+          {
+            "feature": {
+              "config": {
+                "feature": {
+                  "config": {
+                    "feature": {
+                      "config": {
+                        "target": {
+                          "Properties": {
+                            "axis": "y"
+                          },
+                          "Name": "minecraft:stripped_crimson_hyphae"
+                        },
+                        "state": {
+                          "Properties": {
+                            "level": "0"
+                          },
+                          "Name": "minecraft:lava"
+                        },
+                        "radius": 0
+                      },
+                      "type": "minecraft:netherrack_replace_blobs"
+                    },
+                    "decorator": {
+                      "config": {
+                        "count": 10
+                      },
+                      "type": "minecraft:count"
+                    }
+                  },
+                  "type": "minecraft:decorated"
+                },
+                "decorator": {
+                  "config": {},
+                  "type": "minecraft:heightmap"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "chance": 0.0
+          }
+        ],
+        "default": {
+          "config": {
+            "feature": {
+              "config": {
+                "rock_count": 5,
+                "hole_count": 4,
+                "valid_blocks": [
+                  "minecraft:stripped_crimson_hyphae",
+                  "minecraft:air"
+                ],
+                "state": {
+                  "Properties": {
+                    "falling": "true"
+                  },
+                  "Name": "minecraft:lava"
+                },
+                "requires_block_below": true
+              },
+              "type": "minecraft:spring_feature"
+            },
+            "decorator": {
+              "config": {},
+              "type": "minecraft:heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:random_selector"
+    },
+    "decorator": {
+      "config": {
+        "count": 48
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

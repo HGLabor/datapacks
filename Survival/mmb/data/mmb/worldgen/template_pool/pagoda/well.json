@@ -1,0 +1,15 @@
+{
+  "name": "mmb:pagoda/well",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "mmb:pagoda/well",
+        "processors": "mmb:pagoda_variation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

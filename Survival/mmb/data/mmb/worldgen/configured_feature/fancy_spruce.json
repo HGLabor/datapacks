@@ -1,0 +1,24 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "mmb:fancy_spruce_1",
+        "chance": 0.25
+      },
+      {
+        "feature": "mmb:fancy_spruce_2",
+        "chance": 0.2
+      },
+      {
+        "feature": "mmb:fancy_spruce_3",
+        "chance": 0.15
+      },
+      {
+        "feature": "mmb:fancy_spruce_4",
+        "chance": 0.4
+      }
+    ],
+    "default": "mmb:fancy_spruce_5"
+  },
+  "type": "minecraft:random_selector"
+}

@@ -1,0 +1,75 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "feature": {
+                  "config": {
+                    "feature": {
+                      "config": {
+                        "state_provider": {
+                          "state": {
+                            "Name": "minecraft:terracotta"
+                          },
+                          "type": "minecraft:simple_state_provider"
+                        }
+                      },
+                      "type": "minecraft:block_pile"
+                    },
+                    "decorator": {
+                      "config": {
+                        "count": 4
+                      },
+                      "type": "minecraft:count"
+                    }
+                  },
+                  "type": "minecraft:decorated"
+                },
+                "decorator": {
+                  "config": {
+                    "outer": {
+                      "config": {},
+                      "type": "minecraft:square"
+                    },
+                    "inner": {
+                      "config": {},
+                      "type": "minecraft:heightmap_world_surface"
+                    }
+                  },
+                  "type": "minecraft:decorated"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "decorator": {
+              "config": {
+                "noise_to_count_ratio": 20,
+                "noise_factor": 40.0,
+                "noise_offset": -0.75
+              },
+              "type": "minecraft:count_noise_biased"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "chance": 3
+          },
+          "type": "minecraft:chance"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "chance": 1
+      },
+      "type": "minecraft:chance"
+    }
+  },
+  "type": "minecraft:decorated"
+}

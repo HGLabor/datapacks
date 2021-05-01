@@ -1,0 +1,79 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "features": [
+                  {
+                    "feature": {
+                      "config": {
+                        "state": {
+                          "Name": "minecraft:andesite"
+                        }
+                      },
+                      "type": "minecraft:forest_rock"
+                    },
+                    "chance": 0.3
+                  },
+                  {
+                    "feature": {
+                      "config": {
+                        "state": {
+                          "Name": "minecraft:stone"
+                        }
+                      },
+                      "type": "minecraft:forest_rock"
+                    },
+                    "chance": 0.4
+                  }
+                ],
+                "default": {
+                  "config": {
+                    "state": {
+                      "Name": "minecraft:diorite"
+                    }
+                  },
+                  "type": "minecraft:forest_rock"
+                }
+              },
+              "type": "minecraft:random_selector"
+            },
+            "decorator": {
+              "config": {
+                "outer": {
+                  "config": {},
+                  "type": "minecraft:square"
+                },
+                "inner": {
+                  "config": {},
+                  "type": "minecraft:heightmap_world_surface"
+                }
+              },
+              "type": "minecraft:decorated"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "chance": 100
+          },
+          "type": "minecraft:chance"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "noise_to_count_ratio": -32,
+        "noise_factor": 160.0,
+        "noise_offset": -1.5
+      },
+      "type": "minecraft:count_noise_biased"
+    }
+  },
+  "type": "minecraft:decorated"
+}

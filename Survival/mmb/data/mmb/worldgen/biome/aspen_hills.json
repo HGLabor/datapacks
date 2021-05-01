@@ -1,0 +1,199 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "sky_color": 8169210,
+    "fog_color": 12638463,
+    "grass_color": 10271316,
+    "water_color": 4749544,
+    "water_fog_color": 329011
+  },
+  "surface_builder": "mmb:shallow_grass",
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "mmb:aspen_hills/gravel",
+      "mmb:aspen_hills/coarse_dirt"
+    ],
+    [
+      "mmb:lake_water_uncommon",
+      "minecraft:lake_lava",
+      "mmb:aspen_hills/lakes"
+    ],
+    [],
+    [
+      "minecraft:monster_room"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
+      "minecraft:ore_coal",
+      "minecraft:ore_iron",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
+      "minecraft:ore_lapis",
+      "minecraft:disk_clay",
+      "mmb:taiga_lakes/lake_gravel"
+    ],
+    [],
+    [
+      "mmb:aspen_hills/big_rock",
+      "mmb:aspen_hills/small_rock",
+      "mmb:aspen_hills/grass",
+      "mmb:aspen_hills/ferns",
+      "mmb:aspen_hills/trees_layer_1",
+      "mmb:aspen_hills/trees_layer_2",
+      "mmb:aspen_hills/trees_layer_3",
+      "mmb:aspen_hills/trees_layer_4",
+      "mmb:aspen_hills/trees_layer_5",
+      "mmb:aspen_hills/tall_grass",
+      "mmb:aspen_hills/flowers",
+      "mmb:aspen_hills/rose",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "mmb:aspen_hills/extra_springs"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "starts": [
+    "minecraft:mineshaft",
+    "minecraft:stronghold",
+    "minecraft:ruined_portal"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 12,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 16,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:rabbit",
+        "weight": 2,
+        "minCount": 6,
+        "maxCount": 8
+      },
+      {
+        "type": "minecraft:wolf",
+        "weight": 2,
+        "minCount": 3,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:fox",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "player_spawn_friendly": true,
+  "precipitation": "rain",
+  "temperature": 0.6,
+  "downfall": 0.6,
+  "category": "forest",
+  "depth": 0.3,
+  "scale": 0.35
+}

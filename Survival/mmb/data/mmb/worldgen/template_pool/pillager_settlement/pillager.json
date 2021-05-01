@@ -1,0 +1,33 @@
+{
+  "name": "mmb:pillager_settlement/pillager",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 18,
+      "element": {
+        "location": "mmb:pillager_settlement/pillager",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "mmb:pillager_settlement/vindicator",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "mmb:pillager_settlement/witch",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

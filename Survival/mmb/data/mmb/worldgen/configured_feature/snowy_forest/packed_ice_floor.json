@@ -1,0 +1,58 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "target": {
+                  "block": "minecraft:snow_block",
+                  "probability": 0.85,
+                  "predicate_type": "minecraft:random_block_match"
+                },
+                "state": {
+                  "Name": "minecraft:packed_ice"
+                },
+                "size": 26
+              },
+              "type": "minecraft:ore"
+            },
+            "decorator": {
+              "config": {
+                "outer": {
+                  "config": {},
+                  "type": "minecraft:square"
+                },
+                "inner": {
+                  "config": {},
+                  "type": "minecraft:heightmap_world_surface"
+                }
+              },
+              "type": "minecraft:decorated"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "noise_to_count_ratio": 1,
+            "noise_factor": 20.0,
+            "noise_offset": 0.15
+          },
+          "type": "minecraft:count_noise_biased"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "noise_to_count_ratio": 3,
+        "noise_factor": 80.0,
+        "noise_offset": 0.6
+      },
+      "type": "minecraft:count_noise_biased"
+    }
+  },
+  "type": "minecraft:decorated"
+}

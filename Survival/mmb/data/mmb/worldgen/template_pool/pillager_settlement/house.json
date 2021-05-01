@@ -1,0 +1,69 @@
+{
+  "name": "mmb:pillager_settlement/house",
+  "fallback": "mmb:pillager_settlement/side_decor",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "mmb:pillager_settlement/house_tall",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "mmb:pillager_settlement/house_small",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "mmb:pillager_settlement/house_round",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "mmb:pillager_settlement/armory",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "mmb:pillager_settlement/stables",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "mmb:pillager_settlement/archery_range",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "mmb:pillager_settlement/tower",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

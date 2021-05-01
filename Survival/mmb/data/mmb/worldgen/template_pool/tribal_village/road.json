@@ -1,0 +1,51 @@
+{
+  "name": "mmb:tribal_village/road",
+  "fallback": "mmb:tribal_village/road_end",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "mmb:tribal_village/road_1",
+        "processors": "mmb:tribal_village_road",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "mmb:tribal_village/road_2",
+        "processors": "mmb:tribal_village_road",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "mmb:tribal_village/road_corner_left",
+        "processors": "mmb:tribal_village_road",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "mmb:tribal_village/road_corner_right",
+        "processors": "mmb:tribal_village_road",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "mmb:tribal_village/road_split",
+        "processors": "mmb:tribal_village_road",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

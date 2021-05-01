@@ -1,0 +1,19 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "state": {
+          "Name": "minecraft:brown_concrete_powder"
+        }
+      },
+      "type": "minecraft:lake"
+    },
+    "decorator": {
+      "config": {
+        "chance": 20
+      },
+      "type": "minecraft:lava_lake"
+    }
+  },
+  "type": "minecraft:decorated"
+}

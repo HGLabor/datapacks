@@ -1,0 +1,89 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "features": [
+                  {
+                    "feature": {
+                      "config": {
+                        "target": {
+                          "Properties": {
+                            "axis": "y"
+                          },
+                          "Name": "minecraft:stripped_crimson_hyphae"
+                        },
+                        "state": {
+                          "Name": "minecraft:obsidian"
+                        },
+                        "radius": 0
+                      },
+                      "type": "minecraft:netherrack_replace_blobs"
+                    },
+                    "chance": 0.35
+                  },
+                  {
+                    "feature": {
+                      "config": {
+                        "target": {
+                          "Properties": {
+                            "axis": "y"
+                          },
+                          "Name": "minecraft:stripped_crimson_hyphae"
+                        },
+                        "state": {
+                          "Name": "minecraft:iron_ore"
+                        },
+                        "radius": 0
+                      },
+                      "type": "minecraft:netherrack_replace_blobs"
+                    },
+                    "chance": 0.1
+                  }
+                ],
+                "default": {
+                  "config": {
+                    "target": {
+                      "Properties": {
+                        "axis": "y"
+                      },
+                      "Name": "minecraft:stripped_crimson_hyphae"
+                    },
+                    "state": {
+                      "Name": "minecraft:magma_block"
+                    },
+                    "radius": 0
+                  },
+                  "type": "minecraft:netherrack_replace_blobs"
+                }
+              },
+              "type": "minecraft:random_selector"
+            },
+            "decorator": {
+              "config": {},
+              "type": "minecraft:heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 20,
+        "extra_chance": 0.25,
+        "extra_count": 4
+      },
+      "type": "minecraft:count_extra"
+    }
+  },
+  "type": "minecraft:decorated"
+}

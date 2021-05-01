@@ -1,0 +1,35 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "can_replace": true,
+        "project": false,
+        "need_water": false,
+        "xspread": 0,
+        "yspread": 0,
+        "zspread": 0,
+        "whitelist": [],
+        "blacklist": [],
+        "tries": 1,
+        "state_provider": {
+          "state": {
+            "Properties": {
+              "facing": "east"
+            },
+            "Name": "minecraft:magenta_glazed_terracotta"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "block_placer": {
+          "type": "minecraft:simple_block_placer"
+        }
+      },
+      "type": "minecraft:random_patch"
+    },
+    "decorator": {
+      "config": {},
+      "type": "minecraft:heightmap"
+    }
+  },
+  "type": "minecraft:decorated"
+}

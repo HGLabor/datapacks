@@ -1,0 +1,11 @@
+{
+  "config": {
+    "state": {
+      "Properties": {
+        "level": "0"
+      },
+      "Name": "minecraft:lava"
+    }
+  },
+  "type": "minecraft:lake"
+}

@@ -1,0 +1,69 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "can_replace": true,
+            "project": false,
+            "need_water": false,
+            "xspread": 9,
+            "yspread": 5,
+            "zspread": 9,
+            "whitelist": [],
+            "blacklist": [],
+            "tries": 24,
+            "state_provider": {
+              "entries": [
+                {
+                  "weight": 9,
+                  "data": {
+                    "Name": "minecraft:azure_bluet"
+                  }
+                },
+                {
+                  "weight": 6,
+                  "data": {
+                    "Name": "minecraft:oxeye_daisy"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:cornflower"
+                  }
+                }
+              ],
+              "type": "minecraft:weighted_state_provider"
+            },
+            "block_placer": {
+              "type": "minecraft:simple_block_placer"
+            }
+          },
+          "type": "minecraft:flower"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "chance": 8
+      },
+      "type": "minecraft:chance"
+    }
+  },
+  "type": "minecraft:decorated"
+}

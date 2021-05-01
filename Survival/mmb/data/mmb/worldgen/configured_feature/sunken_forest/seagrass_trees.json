@@ -1,0 +1,72 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "can_replace": true,
+            "project": false,
+            "need_water": false,
+            "xspread": 4,
+            "yspread": 3,
+            "zspread": 4,
+            "whitelist": [
+              {
+                "Name": "minecraft:brain_coral_block"
+              },
+              {
+                "Name": "minecraft:bubble_coral_block"
+              },
+              {
+                "Name": "minecraft:fire_coral_block"
+              },
+              {
+                "Name": "minecraft:horn_coral_block"
+              },
+              {
+                "Name": "minecraft:tube_coral_block"
+              }
+            ],
+            "blacklist": [],
+            "tries": 8,
+            "state_provider": {
+              "state": {
+                "Name": "minecraft:seagrass"
+              },
+              "type": "minecraft:simple_state_provider"
+            },
+            "block_placer": {
+              "type": "minecraft:simple_block_placer"
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {
+                "bottom_offset": 39,
+                "top_offset": 0,
+                "maximum": 20
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 24
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

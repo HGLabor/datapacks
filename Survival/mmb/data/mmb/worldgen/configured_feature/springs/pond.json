@@ -1,0 +1,162 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "features": [
+                  {
+                    "feature": {
+                      "config": {
+                        "max_water_depth": 0,
+                        "ignore_vines": true,
+                        "heightmap": "WORLD_SURFACE",
+                        "minimum_size": {
+                          "limit": 2,
+                          "lower_size": 2,
+                          "upper_size": 2,
+                          "type": "minecraft:two_layers_feature_size"
+                        },
+                        "decorators": [
+                          {
+                            "provider": {
+                              "state": {
+                                "Name": "minecraft:cobblestone"
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            },
+                            "type": "minecraft:alter_ground"
+                          }
+                        ],
+                        "trunk_provider": {
+                          "state": {
+                            "Name": "minecraft:mossy_cobblestone"
+                          },
+                          "type": "minecraft:simple_state_provider"
+                        },
+                        "leaves_provider": {
+                          "state": {
+                            "Name": "minecraft:mossy_cobblestone"
+                          },
+                          "type": "minecraft:simple_state_provider"
+                        },
+                        "foliage_placer": {
+                          "radius": 5,
+                          "offset": 0,
+                          "height": 5,
+                          "type": "minecraft:fancy_foliage_placer"
+                        },
+                        "trunk_placer": {
+                          "base_height": 1,
+                          "height_rand_a": 0,
+                          "height_rand_b": 0,
+                          "type": "minecraft:straight_trunk_placer"
+                        }
+                      },
+                      "type": "minecraft:tree"
+                    },
+                    "chance": 0.75
+                  },
+                  {
+                    "feature": {
+                      "config": {
+                        "feature": {
+                          "config": {
+                            "target": {
+                              "block": "minecraft:mossy_cobblestone",
+                              "predicate_type": "minecraft:block_match"
+                            },
+                            "state": {
+                              "Properties": {
+                                "level": "0"
+                              },
+                              "Name": "minecraft:water"
+                            },
+                            "size": 17
+                          },
+                          "type": "minecraft:ore"
+                        },
+                        "decorator": {
+                          "config": {
+                            "outer": {
+                              "config": {
+                                "count": 6
+                              },
+                              "type": "minecraft:count"
+                            },
+                            "inner": {
+                              "config": {},
+                              "type": "minecraft:heightmap"
+                            }
+                          },
+                          "type": "minecraft:decorated"
+                        }
+                      },
+                      "type": "minecraft:decorated"
+                    },
+                    "chance": 0.6
+                  }
+                ],
+                "default": {
+                  "config": {
+                    "feature": {
+                      "config": {
+                        "target": {
+                          "block": "minecraft:grass_block",
+                          "predicate_type": "minecraft:block_match"
+                        },
+                        "state": {
+                          "Name": "minecraft:cobblestone"
+                        },
+                        "size": 20
+                      },
+                      "type": "minecraft:ore"
+                    },
+                    "decorator": {
+                      "config": {
+                        "count": 8
+                      },
+                      "type": "minecraft:count"
+                    }
+                  },
+                  "type": "minecraft:decorated"
+                }
+              },
+              "type": "minecraft:random_selector"
+            },
+            "decorator": {
+              "config": {
+                "count": 32
+              },
+              "type": "minecraft:count"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "chance": 5
+      },
+      "type": "minecraft:chance"
+    }
+  },
+  "type": "minecraft:decorated"
+}

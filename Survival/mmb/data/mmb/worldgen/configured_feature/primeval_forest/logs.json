@@ -1,0 +1,318 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "config": {
+                  "feature": {
+                    "config": {
+                      "can_replace": true,
+                      "project": true,
+                      "need_water": false,
+                      "xspread": 0,
+                      "yspread": 1,
+                      "zspread": 3,
+                      "whitelist": [
+                        {
+                          "Properties": {
+                            "snowy": "false"
+                          },
+                          "Name": "minecraft:grass_block"
+                        },
+                        {
+                          "Properties": {
+                            "snowy": "false"
+                          },
+                          "Name": "minecraft:podzol"
+                        },
+                        {
+                          "Name": "minecraft:coarse_dirt"
+                        },
+                        {
+                          "Name": "minecraft:dirt"
+                        }
+                      ],
+                      "blacklist": [],
+                      "tries": 4,
+                      "state_provider": {
+                        "entries": [
+                          {
+                            "weight": 1,
+                            "data": {
+                              "Properties": {
+                                "axis": "z"
+                              },
+                              "Name": "minecraft:dark_oak_log"
+                            }
+                          },
+                          {
+                            "weight": 2,
+                            "data": {
+                              "Properties": {
+                                "axis": "z"
+                              },
+                              "Name": "minecraft:stripped_dark_oak_log"
+                            }
+                          }
+                        ],
+                        "type": "minecraft:weighted_state_provider"
+                      },
+                      "block_placer": {
+                        "type": "minecraft:simple_block_placer"
+                      }
+                    },
+                    "type": "minecraft:random_patch"
+                  },
+                  "decorator": {
+                    "config": {
+                      "count": 128
+                    },
+                    "type": "minecraft:count"
+                  }
+                },
+                "type": "minecraft:decorated"
+              },
+              {
+                "config": {
+                  "feature": {
+                    "config": {
+                      "can_replace": true,
+                      "project": true,
+                      "need_water": false,
+                      "xspread": 3,
+                      "yspread": 1,
+                      "zspread": 0,
+                      "whitelist": [
+                        {
+                          "Properties": {
+                            "snowy": "false"
+                          },
+                          "Name": "minecraft:grass_block"
+                        },
+                        {
+                          "Properties": {
+                            "snowy": "false"
+                          },
+                          "Name": "minecraft:podzol"
+                        },
+                        {
+                          "Name": "minecraft:coarse_dirt"
+                        },
+                        {
+                          "Name": "minecraft:dirt"
+                        }
+                      ],
+                      "blacklist": [],
+                      "tries": 4,
+                      "state_provider": {
+                        "entries": [
+                          {
+                            "weight": 1,
+                            "data": {
+                              "Properties": {
+                                "axis": "x"
+                              },
+                              "Name": "minecraft:dark_oak_log"
+                            }
+                          },
+                          {
+                            "weight": 2,
+                            "data": {
+                              "Properties": {
+                                "axis": "x"
+                              },
+                              "Name": "minecraft:stripped_dark_oak_log"
+                            }
+                          }
+                        ],
+                        "type": "minecraft:weighted_state_provider"
+                      },
+                      "block_placer": {
+                        "type": "minecraft:simple_block_placer"
+                      }
+                    },
+                    "type": "minecraft:random_patch"
+                  },
+                  "decorator": {
+                    "config": {
+                      "count": 128
+                    },
+                    "type": "minecraft:count"
+                  }
+                },
+                "type": "minecraft:decorated"
+              },
+              {
+                "config": {
+                  "feature": {
+                    "config": {
+                      "can_replace": true,
+                      "project": true,
+                      "need_water": false,
+                      "xspread": 0,
+                      "yspread": 1,
+                      "zspread": 3,
+                      "whitelist": [
+                        {
+                          "Properties": {
+                            "snowy": "false"
+                          },
+                          "Name": "minecraft:grass_block"
+                        },
+                        {
+                          "Properties": {
+                            "snowy": "false"
+                          },
+                          "Name": "minecraft:podzol"
+                        },
+                        {
+                          "Name": "minecraft:coarse_dirt"
+                        },
+                        {
+                          "Name": "minecraft:dirt"
+                        }
+                      ],
+                      "blacklist": [],
+                      "tries": 4,
+                      "state_provider": {
+                        "entries": [
+                          {
+                            "weight": 1,
+                            "data": {
+                              "Properties": {
+                                "axis": "z"
+                              },
+                              "Name": "minecraft:spruce_log"
+                            }
+                          },
+                          {
+                            "weight": 2,
+                            "data": {
+                              "Properties": {
+                                "axis": "z"
+                              },
+                              "Name": "minecraft:stripped_spruce_log"
+                            }
+                          }
+                        ],
+                        "type": "minecraft:weighted_state_provider"
+                      },
+                      "block_placer": {
+                        "type": "minecraft:simple_block_placer"
+                      }
+                    },
+                    "type": "minecraft:random_patch"
+                  },
+                  "decorator": {
+                    "config": {
+                      "count": 128
+                    },
+                    "type": "minecraft:count"
+                  }
+                },
+                "type": "minecraft:decorated"
+              },
+              {
+                "config": {
+                  "feature": {
+                    "config": {
+                      "can_replace": true,
+                      "project": true,
+                      "need_water": false,
+                      "xspread": 3,
+                      "yspread": 1,
+                      "zspread": 0,
+                      "whitelist": [
+                        {
+                          "Properties": {
+                            "snowy": "false"
+                          },
+                          "Name": "minecraft:grass_block"
+                        },
+                        {
+                          "Properties": {
+                            "snowy": "false"
+                          },
+                          "Name": "minecraft:podzol"
+                        },
+                        {
+                          "Name": "minecraft:coarse_dirt"
+                        },
+                        {
+                          "Name": "minecraft:dirt"
+                        }
+                      ],
+                      "blacklist": [],
+                      "tries": 4,
+                      "state_provider": {
+                        "entries": [
+                          {
+                            "weight": 1,
+                            "data": {
+                              "Properties": {
+                                "axis": "x"
+                              },
+                              "Name": "minecraft:spruce_log"
+                            }
+                          },
+                          {
+                            "weight": 2,
+                            "data": {
+                              "Properties": {
+                                "axis": "x"
+                              },
+                              "Name": "minecraft:stripped_spruce_log"
+                            }
+                          }
+                        ],
+                        "type": "minecraft:weighted_state_provider"
+                      },
+                      "block_placer": {
+                        "type": "minecraft:simple_block_placer"
+                      }
+                    },
+                    "type": "minecraft:random_patch"
+                  },
+                  "decorator": {
+                    "config": {
+                      "count": 128
+                    },
+                    "type": "minecraft:count"
+                  }
+                },
+                "type": "minecraft:decorated"
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 0,
+        "extra_chance": 0.4,
+        "extra_count": 1
+      },
+      "type": "minecraft:count_extra"
+    }
+  },
+  "type": "minecraft:decorated"
+}

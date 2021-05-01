@@ -1,0 +1,69 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "Properties": {
+                "layers": "1"
+              },
+              "Name": "minecraft:snow"
+            },
+            "place_on": [
+              {
+                "Name": "minecraft:snow_block"
+              }
+            ],
+            "place_in": [
+              {
+                "Name": "minecraft:air"
+              }
+            ],
+            "place_under": [
+              {
+                "Name": "minecraft:air"
+              },
+              {
+                "Name": "minecraft:ice"
+              }
+            ]
+          },
+          "type": "minecraft:simple_block"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap_world_surface"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "outer": {
+          "config": {
+            "count": 128
+          },
+          "type": "minecraft:count"
+        },
+        "inner": {
+          "config": {
+            "count": 16
+          },
+          "type": "minecraft:count"
+        }
+      },
+      "type": "minecraft:decorated"
+    }
+  },
+  "type": "minecraft:decorated"
+}

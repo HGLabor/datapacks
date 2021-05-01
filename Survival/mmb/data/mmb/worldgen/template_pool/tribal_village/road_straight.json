@@ -1,0 +1,24 @@
+{
+  "name": "mmb:tribal_village/road_straight",
+  "fallback": "mmb:tribal_village/road_end",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "mmb:tribal_village/road_1",
+        "processors": "mmb:tribal_village_road",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "mmb:tribal_village/road_2",
+        "processors": "mmb:tribal_village_road",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "sky_color": 7385340,
+    "fog_color": 12638463,
+    "foliage_color": 11049032,
+    "grass_color": 11057240,
+    "water_color": 5284080,
+    "water_fog_color": 530488
+  },
+  "surface_builder": "minecraft:desert",
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "mmb:overgrown_sands/grass_ground",
+      "mmb:overgrown_sands/coarse_dirt",
+      "mmb:overgrown_sands/sand_underground",
+      "mmb:overgrown_sands/sandstone_underground"
+    ],
+    [
+      "mmb:lake_water_uncommon",
+      "minecraft:lake_lava"
+    ],
+    [],
+    [
+      "minecraft:monster_room"
+    ],
+    [],
+    [
+      "mmb:overgrown_sands/sandstone_fountain",
+      "mmb:overgrown_sands/fountain_top_sand",
+      "mmb:overgrown_sands/fountain_top_grass",
+      "mmb:overgrown_sands/fountain_springs",
+      "mmb:overgrown_sands/fountain_water",
+      "mmb:overgrown_sands/fountain_inside_water",
+      "mmb:overgrown_sands/fountain_deltas",
+      "mmb:overgrown_sands/warped_to_sandstone",
+      "mmb:overgrown_sands/crimson_to_sandstone",
+      "mmb:overgrown_sands/fountain_sugar_cane",
+      "mmb:overgrown_sands/fountain_lily_pad",
+      "mmb:overgrown_sands/fountain_cactus",
+      "mmb:overgrown_sands/sandstone_spikes",
+      "mmb:overgrown_sands/sandstone_spikes_top",
+      "mmb:overgrown_sands/trees",
+      "mmb:overgrown_sands/tall_trees"
+    ],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
+      "minecraft:ore_coal",
+      "minecraft:ore_iron",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
+      "minecraft:ore_lapis",
+      "minecraft:disk_clay",
+      "minecraft:disk_sand"
+    ],
+    [],
+    [
+      "mmb:overgrown_sands/flowers",
+      "mmb:overgrown_sands/cactus",
+      "mmb:overgrown_sands/dead_bush",
+      "mmb:overgrown_sands/tall_grass",
+      "mmb:overgrown_sands/grass",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "starts": [
+    "minecraft:village_desert",
+    "minecraft:pillager_outpost",
+    "minecraft:mineshaft",
+    "minecraft:stronghold",
+    "minecraft:ruined_portal"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 2,
+        "minCount": 4,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 6,
+        "minCount": 4,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 2,
+        "minCount": 4,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:rabbit",
+        "weight": 14,
+        "minCount": 4,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:parrot",
+        "weight": 6,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "player_spawn_friendly": false,
+  "precipitation": "none",
+  "temperature": 1.0,
+  "downfall": 0.3,
+  "category": "desert",
+  "depth": 0.5,
+  "scale": 0.25
+}

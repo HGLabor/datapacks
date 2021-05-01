@@ -1,0 +1,50 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "to_place": {
+          "Properties": {
+            "facing": "down"
+          },
+          "Name": "minecraft:end_rod"
+        },
+        "place_on": [
+          {
+            "Name": "minecraft:air"
+          }
+        ],
+        "place_in": [
+          {
+            "Name": "minecraft:air"
+          }
+        ],
+        "place_under": [
+          {
+            "Name": "minecraft:light_blue_stained_glass"
+          },
+          {
+            "Name": "minecraft:lime_stained_glass"
+          },
+          {
+            "Name": "minecraft:yellow_stained_glass"
+          },
+          {
+            "Name": "minecraft:magenta_stained_glass"
+          },
+          {
+            "Name": "minecraft:orange_stained_glass"
+          }
+        ]
+      },
+      "type": "minecraft:simple_block"
+    },
+    "decorator": {
+      "config": {
+        "step": "air",
+        "probability": 0.1
+      },
+      "type": "minecraft:carving_mask"
+    }
+  },
+  "type": "minecraft:decorated"
+}

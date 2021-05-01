@@ -1,0 +1,7 @@
+{
+  "config": {
+    "start_pool": "mmb:marker",
+    "size": 2
+  },
+  "type": "minecraft:village"
+}

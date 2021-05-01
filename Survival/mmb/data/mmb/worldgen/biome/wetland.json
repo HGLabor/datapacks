@@ -1,0 +1,222 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "sky_color": 6859000,
+    "fog_color": 12638463,
+    "foliage_color": 9490496,
+    "grass_color": 8437832,
+    "water_color": 4753640,
+    "water_fog_color": 2109504
+  },
+  "surface_builder": "minecraft:swamp",
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "mmb:wetland/dirt_island_1",
+      "mmb:wetland/dirt_island_2",
+      "mmb:wetland/dirt_island_3",
+      "mmb:wetland/dirt_island_4",
+      "mmb:wetland/clay_island_1",
+      "mmb:wetland/clay_island_2",
+      "mmb:wetland/clay_island_3",
+      "mmb:wetland/clay_island_4",
+      "mmb:wetland/clay_1",
+      "mmb:wetland/clay_2",
+      "mmb:wetland/clay_3",
+      "mmb:wetland/coarse_dirt"
+    ],
+    [
+      "mmb:lake_water_uncommon",
+      "minecraft:lake_lava"
+    ],
+    [],
+    [
+      "minecraft:monster_room"
+    ],
+    [],
+    [
+      "mmb:wetland/water_dirt",
+      "mmb:wetland/water_clay"
+    ],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
+      "minecraft:ore_coal",
+      "minecraft:ore_iron",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
+      "mmb:marshland/coal",
+      "minecraft:ore_lapis"
+    ],
+    [],
+    [
+      "mmb:wetland/lily_pad",
+      "mmb:wetland/puddle",
+      "mmb:wetland/clay_island_flowers",
+      "mmb:wetland/trees_birch",
+      "mmb:wetland/trees",
+      "mmb:wetland/trees_island",
+      "mmb:wetland/clay_ferns",
+      "mmb:wetland/clay_grass",
+      "mmb:wetland/clay_flowers",
+      "mmb:wetland/grass",
+      "mmb:wetland/tall_grass",
+      "mmb:wetland/flowers",
+      "mmb:wetland/seagrass",
+      "mmb:wetland/sugar_cane",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "starts": [
+    "minecraft:mineshaft",
+    "minecraft:stronghold",
+    "minecraft:ruined_portal"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 14,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 6,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:sheep",
+        "weight": 6,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "water_creature": [],
+    "water_ambient": [
+      {
+        "type": "minecraft:cod",
+        "weight": 3,
+        "minCount": 3,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:salmon",
+        "weight": 1,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
+    "misc": []
+  },
+  "spawn_costs": {
+    "minecraft:cod": {
+      "energy_budget": 0.05,
+      "charge": 0.5
+    },
+    "minecraft:salmon": {
+      "energy_budget": 0.05,
+      "charge": 0.5
+    }
+  },
+  "player_spawn_friendly": false,
+  "precipitation": "rain",
+  "temperature": 0.5,
+  "downfall": 0.8,
+  "category": "swamp",
+  "depth": -0.1,
+  "scale": 0.1
+}

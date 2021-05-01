@@ -1,0 +1,12 @@
+{
+  "config": {
+    "feature": "minecraft:ore_gold",
+    "decorator": {
+      "config": {
+        "count": 2
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

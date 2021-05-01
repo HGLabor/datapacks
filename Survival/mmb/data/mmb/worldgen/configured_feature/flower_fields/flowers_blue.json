@@ -1,0 +1,78 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "feature": {
+                  "config": {
+                    "can_replace": false,
+                    "project": false,
+                    "need_water": false,
+                    "xspread": 2,
+                    "yspread": 2,
+                    "zspread": 2,
+                    "whitelist": [],
+                    "blacklist": [],
+                    "tries": 3,
+                    "state_provider": {
+                      "state": {
+                        "Name": "minecraft:cornflower"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "block_placer": {
+                      "type": "minecraft:simple_block_placer"
+                    }
+                  },
+                  "type": "minecraft:no_bonemeal_flower"
+                },
+                "decorator": {
+                  "config": {
+                    "noise_to_count_ratio": 1,
+                    "noise_factor": 80.0,
+                    "noise_offset": -0.45
+                  },
+                  "type": "minecraft:count_noise_biased"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "decorator": {
+              "config": {
+                "noise_to_count_ratio": -1,
+                "noise_factor": 80.0,
+                "noise_offset": -0.575
+              },
+              "type": "minecraft:count_noise_biased"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap_world_surface"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 30
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

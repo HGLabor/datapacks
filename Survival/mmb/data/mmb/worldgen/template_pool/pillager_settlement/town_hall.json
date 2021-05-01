@@ -1,0 +1,15 @@
+{
+  "name": "mmb:pillager_settlement/town_hall",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "mmb:pillager_settlement/town_hall",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+fill ~ ~ ~ ~ ~1 ~ minecraft:air
+summon villager ~ ~ ~ {CustomNameVisible:0b,PersistenceRequired:1b,Tags:["mmb.randomize"],CustomName:'{"translate":"Village Elder"}',VillagerData:{level:5,profession:"minecraft:cleric",type:"minecraft:jungle"},Offers:{Recipes:[{rewardExp:1b,maxUses:6,uses:0,xp:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:potion",Count:1b,tag:{display:{Name:'{"translate":"Healing Brew","italic":false}'},CustomPotionEffects:[{Id:6b,Amplifier:0b,Duration:1},{Id:10b,Amplifier:0b,Duration:400}],CustomPotionColor:12599440}}}]}}
+execute as @e[type=minecraft:villager,tag=mmb.randomize,limit=1] at @s run function mmb:structure_spawn/random/tribal_village_elder

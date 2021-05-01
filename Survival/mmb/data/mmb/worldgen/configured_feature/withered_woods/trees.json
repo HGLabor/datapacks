@@ -1,0 +1,385 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "max_water_depth": 0,
+                    "ignore_vines": true,
+                    "heightmap": "OCEAN_FLOOR",
+                    "minimum_size": {
+                      "limit": 0,
+                      "lower_size": 0,
+                      "upper_size": 0,
+                      "min_clipped_height": 4,
+                      "type": "minecraft:two_layers_feature_size"
+                    },
+                    "decorators": [],
+                    "trunk_provider": {
+                      "state": {
+                        "Properties": {
+                          "axis": "y"
+                        },
+                        "Name": "minecraft:bone_block"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "leaves_provider": {
+                      "state": {
+                        "Name": "minecraft:cobweb"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "foliage_placer": {
+                      "radius": 0,
+                      "offset": {
+                        "base": 0,
+                        "spread": 1
+                      },
+                      "height": 4,
+                      "type": "minecraft:fancy_foliage_placer"
+                    },
+                    "trunk_placer": {
+                      "base_height": 13,
+                      "height_rand_a": 2,
+                      "height_rand_b": 2,
+                      "type": "minecraft:fancy_trunk_placer"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "chance": 0.02
+              },
+              {
+                "feature": {
+                  "config": {
+                    "max_water_depth": 0,
+                    "ignore_vines": true,
+                    "heightmap": "OCEAN_FLOOR",
+                    "minimum_size": {
+                      "limit": 0,
+                      "lower_size": 0,
+                      "upper_size": 2,
+                      "type": "minecraft:two_layers_feature_size"
+                    },
+                    "decorators": [],
+                    "trunk_provider": {
+                      "state": {
+                        "Properties": {
+                          "axis": "y"
+                        },
+                        "Name": "minecraft:dark_oak_log"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "leaves_provider": {
+                      "entries": [
+                        {
+                          "weight": 255,
+                          "data": {
+                            "Properties": {
+                              "persistent": "false",
+                              "distance": "7"
+                            },
+                            "Name": "minecraft:acacia_leaves"
+                          }
+                        },
+                        {
+                          "weight": 1,
+                          "data": {
+                            "Name": "minecraft:cobweb"
+                          }
+                        }
+                      ],
+                      "type": "minecraft:weighted_state_provider"
+                    },
+                    "foliage_placer": {
+                      "radius": 0,
+                      "offset": {
+                        "base": 1,
+                        "spread": 2
+                      },
+                      "crown_height": 5,
+                      "type": "minecraft:mega_pine_foliage_placer"
+                    },
+                    "trunk_placer": {
+                      "base_height": 8,
+                      "height_rand_a": 1,
+                      "height_rand_b": 1,
+                      "type": "minecraft:straight_trunk_placer"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "chance": 0.5
+              },
+              {
+                "feature": {
+                  "config": {
+                    "max_water_depth": 0,
+                    "ignore_vines": true,
+                    "heightmap": "OCEAN_FLOOR",
+                    "minimum_size": {
+                      "middle_size": 1,
+                      "upper_size": 2,
+                      "limit": 0,
+                      "upper_limit": 1,
+                      "lower_size": 0,
+                      "type": "minecraft:three_layers_feature_size"
+                    },
+                    "decorators": [
+                      {
+                        "type": "minecraft:leave_vine"
+                      }
+                    ],
+                    "trunk_provider": {
+                      "entries": [
+                        {
+                          "weight": 7,
+                          "data": {
+                            "Properties": {
+                              "axis": "y"
+                            },
+                            "Name": "minecraft:dark_oak_log"
+                          }
+                        },
+                        {
+                          "weight": 1,
+                          "data": {
+                            "Properties": {
+                              "axis": "y"
+                            },
+                            "Name": "minecraft:stripped_dark_oak_log"
+                          }
+                        }
+                      ],
+                      "type": "minecraft:weighted_state_provider"
+                    },
+                    "leaves_provider": {
+                      "state": {
+                        "Properties": {
+                          "persistent": "false",
+                          "distance": "7"
+                        },
+                        "Name": "minecraft:acacia_leaves"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "foliage_placer": {
+                      "radius": 3,
+                      "offset": 1,
+                      "type": "minecraft:acacia_foliage_placer"
+                    },
+                    "trunk_placer": {
+                      "base_height": 7,
+                      "height_rand_a": 2,
+                      "height_rand_b": 2,
+                      "type": "minecraft:dark_oak_trunk_placer"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "chance": 0.3
+              },
+              {
+                "feature": {
+                  "config": {
+                    "max_water_depth": 0,
+                    "ignore_vines": true,
+                    "heightmap": "OCEAN_FLOOR",
+                    "minimum_size": {
+                      "limit": 0,
+                      "lower_size": 0,
+                      "upper_size": 0,
+                      "min_clipped_height": 4,
+                      "type": "minecraft:two_layers_feature_size"
+                    },
+                    "decorators": [
+                      {
+                        "type": "minecraft:trunk_vine"
+                      }
+                    ],
+                    "trunk_provider": {
+                      "entries": [
+                        {
+                          "weight": 3,
+                          "data": {
+                            "Properties": {
+                              "axis": "y"
+                            },
+                            "Name": "minecraft:dark_oak_log"
+                          }
+                        },
+                        {
+                          "weight": 1,
+                          "data": {
+                            "Properties": {
+                              "axis": "y"
+                            },
+                            "Name": "minecraft:stripped_dark_oak_log"
+                          }
+                        }
+                      ],
+                      "type": "minecraft:weighted_state_provider"
+                    },
+                    "leaves_provider": {
+                      "state": {
+                        "Name": "minecraft:air"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "foliage_placer": {
+                      "radius": 0,
+                      "offset": 0,
+                      "height": 0,
+                      "type": "minecraft:fancy_foliage_placer"
+                    },
+                    "trunk_placer": {
+                      "base_height": 10,
+                      "height_rand_a": 4,
+                      "height_rand_b": 4,
+                      "type": "minecraft:fancy_trunk_placer"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "chance": 0.3
+              },
+              {
+                "feature": {
+                  "config": {
+                    "max_water_depth": 0,
+                    "ignore_vines": true,
+                    "heightmap": "OCEAN_FLOOR",
+                    "minimum_size": {
+                      "limit": 0,
+                      "lower_size": 0,
+                      "upper_size": 0,
+                      "min_clipped_height": 4,
+                      "type": "minecraft:two_layers_feature_size"
+                    },
+                    "decorators": [],
+                    "trunk_provider": {
+                      "entries": [
+                        {
+                          "weight": 5,
+                          "data": {
+                            "Properties": {
+                              "axis": "y"
+                            },
+                            "Name": "minecraft:dark_oak_log"
+                          }
+                        },
+                        {
+                          "weight": 1,
+                          "data": {
+                            "Properties": {
+                              "axis": "y"
+                            },
+                            "Name": "minecraft:stripped_dark_oak_log"
+                          }
+                        }
+                      ],
+                      "type": "minecraft:weighted_state_provider"
+                    },
+                    "leaves_provider": {
+                      "state": {
+                        "Name": "minecraft:air"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "foliage_placer": {
+                      "radius": 0,
+                      "offset": 0,
+                      "height": 0,
+                      "type": "minecraft:fancy_foliage_placer"
+                    },
+                    "trunk_placer": {
+                      "base_height": 10,
+                      "height_rand_a": 4,
+                      "height_rand_b": 4,
+                      "type": "minecraft:fancy_trunk_placer"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "chance": 0.65
+              }
+            ],
+            "default": {
+              "config": {
+                "max_water_depth": 0,
+                "ignore_vines": true,
+                "heightmap": "OCEAN_FLOOR",
+                "minimum_size": {
+                  "limit": 0,
+                  "lower_size": 0,
+                  "upper_size": 0,
+                  "min_clipped_height": 4,
+                  "type": "minecraft:two_layers_feature_size"
+                },
+                "decorators": [],
+                "trunk_provider": {
+                  "state": {
+                    "Properties": {
+                      "axis": "y"
+                    },
+                    "Name": "minecraft:stripped_spruce_log"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "leaves_provider": {
+                  "state": {
+                    "Name": "minecraft:air"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "foliage_placer": {
+                  "radius": 0,
+                  "offset": 0,
+                  "height": 0,
+                  "type": "minecraft:fancy_foliage_placer"
+                },
+                "trunk_placer": {
+                  "base_height": 9,
+                  "height_rand_a": 3,
+                  "height_rand_b": 3,
+                  "type": "minecraft:fancy_trunk_placer"
+                }
+              },
+              "type": "minecraft:tree"
+            }
+          },
+          "type": "minecraft:random_selector"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 7,
+        "extra_chance": 0.35,
+        "extra_count": 3
+      },
+      "type": "minecraft:count_extra"
+    }
+  },
+  "type": "minecraft:decorated"
+}

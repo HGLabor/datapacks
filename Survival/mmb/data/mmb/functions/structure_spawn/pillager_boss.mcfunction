@@ -1,0 +1,7 @@
+scoreboard objectives add mmb.temp.M12-218 dummy
+execute store result score command mmb.temp.M12-218 run gamerule commandBlockOutput
+gamerule commandBlockOutput false
+fill ~ ~ ~ ~ ~1 ~ minecraft:air
+summon minecraft:pillager ~ ~ ~ {CanJoinRaid:0b,Attributes:[{Base:24d,Name:"minecraft:generic.follow_range"},{Base:40d,Name:"generic.max_health"},{Base:0.2,Name:"minecraft:generic.movement_speed"}],PatrolLeader:1b,HandDropChances:[1f,0.085f],PersistenceRequired:1b,Health:40f,LeftHanded:0b,HandItems:[{id:"minecraft:crossbow",Count:1b,tag:{Damage:0,Enchantments:[{lvl:3,id:"minecraft:quick_charge"},{lvl:4,id:"minecraft:piercing"},{lvl:1,id:"minecraft:mending"}]}},{}],ArmorDropChances:[0.085f,0.085f,0.085f,2f],ArmorItems:[{},{},{},{id:"minecraft:white_banner",Count:1b,tag:{HideFlags:32,BlockEntityTag:{Patterns:[{Pattern:"mr",Color:9},{Pattern:"bs",Color:8},{Pattern:"cs",Color:7},{Pattern:"bo",Color:8},{Pattern:"ms",Color:15},{Pattern:"hh",Color:8},{Pattern:"mc",Color:8},{Pattern:"bo",Color:15}],id:"minecraft:banner"},display:{Name:'{"color":"gold","translate":"block.minecraft.ominous_banner"}'}}}]}
+execute if score command mmb.temp.M12-218 matches 1 run schedule function mmb:enable_command_block_output 1t replace
+scoreboard objectives remove mmb.temp.M12-218

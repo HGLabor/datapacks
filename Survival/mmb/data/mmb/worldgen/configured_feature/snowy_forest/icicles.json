@@ -1,0 +1,93 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "feature": {
+                  "config": {
+                    "to_place": {
+                      "Name": "minecraft:ice"
+                    },
+                    "place_on": [
+                      {
+                        "Name": "minecraft:air"
+                      }
+                    ],
+                    "place_in": [
+                      {
+                        "Name": "minecraft:air"
+                      }
+                    ],
+                    "place_under": [
+                      {
+                        "Properties": {
+                          "persistent": "false",
+                          "distance": "1"
+                        },
+                        "Name": "minecraft:acacia_leaves"
+                      },
+                      {
+                        "Properties": {
+                          "persistent": "false",
+                          "distance": "1"
+                        },
+                        "Name": "minecraft:dark_oak_leaves"
+                      },
+                      {
+                        "Name": "minecraft:ice"
+                      },
+                      {
+                        "Properties": {
+                          "axis": "x"
+                        },
+                        "Name": "minecraft:birch_log"
+                      },
+                      {
+                        "Properties": {
+                          "axis": "z"
+                        },
+                        "Name": "minecraft:birch_log"
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_block"
+                },
+                "decorator": {
+                  "config": {
+                    "bottom_offset": 64,
+                    "top_offset": 0,
+                    "maximum": 36
+                  },
+                  "type": "minecraft:range"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "decorator": {
+              "config": {
+                "count": 64
+              },
+              "type": "minecraft:count"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 12
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

@@ -1,0 +1,143 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "features": [
+          {
+            "config": {
+              "to_place": {
+                "Name": "minecraft:snow_block"
+              },
+              "place_on": [
+                {
+                  "Name": "minecraft:sand"
+                },
+                {
+                  "Name": "minecraft:coarse_dirt"
+                },
+                {
+                  "Properties": {
+                    "snowy": "false"
+                  },
+                  "Name": "minecraft:grass_block"
+                },
+                {
+                  "Name": "minecraft:smooth_sandstone"
+                }
+              ],
+              "place_in": [
+                {
+                  "Name": "minecraft:air"
+                }
+              ],
+              "place_under": [
+                {
+                  "Name": "minecraft:air"
+                }
+              ]
+            },
+            "type": "minecraft:simple_block"
+          },
+          {
+            "config": {
+              "to_place": {
+                "Name": "minecraft:smooth_sandstone"
+              },
+              "place_on": [
+                {
+                  "Name": "minecraft:sand"
+                },
+                {
+                  "Name": "minecraft:coarse_dirt"
+                },
+                {
+                  "Properties": {
+                    "snowy": "false"
+                  },
+                  "Name": "minecraft:grass_block"
+                },
+                {
+                  "Name": "minecraft:smooth_sandstone"
+                }
+              ],
+              "place_in": [
+                {
+                  "Name": "minecraft:snow_block"
+                }
+              ],
+              "place_under": [
+                {
+                  "Name": "minecraft:smooth_sandstone"
+                },
+                {
+                  "Name": "minecraft:packed_ice"
+                }
+              ]
+            },
+            "type": "minecraft:simple_block"
+          },
+          {
+            "config": {
+              "feature": {
+                "config": {
+                  "features": [
+                    {
+                      "config": {
+                        "feature": {
+                          "config": {},
+                          "type": "minecraft:ice_spike"
+                        },
+                        "decorator": {
+                          "config": {},
+                          "type": "minecraft:heightmap"
+                        }
+                      },
+                      "type": "minecraft:decorated"
+                    },
+                    {
+                      "config": {
+                        "feature": {
+                          "config": {
+                            "target": {
+                              "Name": "minecraft:packed_ice"
+                            },
+                            "state": {
+                              "Name": "minecraft:smooth_sandstone"
+                            },
+                            "radius": 32
+                          },
+                          "type": "minecraft:netherrack_replace_blobs"
+                        },
+                        "decorator": {
+                          "config": {},
+                          "type": "minecraft:heightmap"
+                        }
+                      },
+                      "type": "minecraft:decorated"
+                    }
+                  ]
+                },
+                "type": "minecraft:simple_random_selector"
+              },
+              "decorator": {
+                "config": {
+                  "count": 12
+                },
+                "type": "minecraft:count"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        ]
+      },
+      "type": "minecraft:simple_random_selector"
+    },
+    "decorator": {
+      "config": {
+        "count": 128
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

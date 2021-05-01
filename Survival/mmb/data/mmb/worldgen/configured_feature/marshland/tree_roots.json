@@ -1,0 +1,153 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "features": [
+          {
+            "config": {
+              "can_replace": true,
+              "project": false,
+              "need_water": false,
+              "xspread": 0,
+              "yspread": 3,
+              "zspread": 0,
+              "whitelist": [
+                {
+                  "Properties": {
+                    "snowy": "false"
+                  },
+                  "Name": "minecraft:grass_block"
+                },
+                {
+                  "Properties": {
+                    "axis": "y"
+                  },
+                  "Name": "minecraft:oak_wood"
+                },
+                {
+                  "Name": "minecraft:coarse_dirt"
+                },
+                {
+                  "Name": "minecraft:dirt"
+                }
+              ],
+              "blacklist": [],
+              "tries": 2,
+              "state_provider": {
+                "state": {
+                  "Properties": {
+                    "axis": "y"
+                  },
+                  "Name": "minecraft:oak_log"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "block_placer": {
+                "min_size": 4,
+                "extra_size": 1,
+                "type": "minecraft:column_placer"
+              }
+            },
+            "type": "minecraft:random_patch"
+          },
+          {
+            "config": {
+              "can_replace": true,
+              "project": false,
+              "need_water": false,
+              "xspread": 1,
+              "yspread": 1,
+              "zspread": 1,
+              "whitelist": [
+                {
+                  "Properties": {
+                    "snowy": "false"
+                  },
+                  "Name": "minecraft:grass_block"
+                },
+                {
+                  "Properties": {
+                    "axis": "y"
+                  },
+                  "Name": "minecraft:oak_wood"
+                },
+                {
+                  "Name": "minecraft:coarse_dirt"
+                },
+                {
+                  "Name": "minecraft:dirt"
+                }
+              ],
+              "blacklist": [],
+              "tries": 15,
+              "state_provider": {
+                "state": {
+                  "Properties": {
+                    "axis": "y"
+                  },
+                  "Name": "minecraft:oak_wood"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "block_placer": {
+                "min_size": 1,
+                "extra_size": 1,
+                "type": "minecraft:column_placer"
+              }
+            },
+            "type": "minecraft:random_patch"
+          },
+          {
+            "config": {
+              "can_replace": true,
+              "project": false,
+              "need_water": false,
+              "xspread": 2,
+              "yspread": 2,
+              "zspread": 2,
+              "whitelist": [
+                {
+                  "Properties": {
+                    "snowy": "false"
+                  },
+                  "Name": "minecraft:grass_block"
+                },
+                {
+                  "Name": "minecraft:coarse_dirt"
+                },
+                {
+                  "Name": "minecraft:dirt"
+                }
+              ],
+              "blacklist": [],
+              "tries": 5,
+              "state_provider": {
+                "state": {
+                  "Properties": {
+                    "axis": "y"
+                  },
+                  "Name": "minecraft:oak_wood"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "block_placer": {
+                "min_size": 1,
+                "extra_size": 0,
+                "type": "minecraft:column_placer"
+              }
+            },
+            "type": "minecraft:random_patch"
+          }
+        ]
+      },
+      "type": "minecraft:simple_random_selector"
+    },
+    "decorator": {
+      "config": {
+        "count": 16
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

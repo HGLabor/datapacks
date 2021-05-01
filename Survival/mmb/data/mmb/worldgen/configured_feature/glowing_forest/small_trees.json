@@ -1,0 +1,233 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "max_water_depth": 0,
+                    "ignore_vines": true,
+                    "heightmap": "OCEAN_FLOOR",
+                    "minimum_size": {
+                      "limit": 2,
+                      "lower_size": 1,
+                      "upper_size": 2,
+                      "type": "minecraft:two_layers_feature_size"
+                    },
+                    "decorators": [
+                      {
+                        "type": "minecraft:leave_vine"
+                      }
+                    ],
+                    "trunk_provider": {
+                      "state": {
+                        "Properties": {
+                          "axis": "y"
+                        },
+                        "Name": "minecraft:dark_oak_log"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "leaves_provider": {
+                      "entries": [
+                        {
+                          "weight": 95,
+                          "data": {
+                            "Properties": {
+                              "persistent": "false",
+                              "distance": "1"
+                            },
+                            "Name": "minecraft:dark_oak_leaves"
+                          }
+                        },
+                        {
+                          "weight": 1,
+                          "data": {
+                            "Name": "minecraft:shroomlight"
+                          }
+                        }
+                      ],
+                      "type": "minecraft:weighted_state_provider"
+                    },
+                    "foliage_placer": {
+                      "radius": 2,
+                      "offset": 1,
+                      "height": 2,
+                      "type": "minecraft:jungle_foliage_placer"
+                    },
+                    "trunk_placer": {
+                      "base_height": 9,
+                      "height_rand_a": 4,
+                      "height_rand_b": 4,
+                      "type": "minecraft:dark_oak_trunk_placer"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "chance": 0.15
+              },
+              {
+                "feature": {
+                  "config": {
+                    "max_water_depth": 0,
+                    "ignore_vines": true,
+                    "heightmap": "OCEAN_FLOOR",
+                    "minimum_size": {
+                      "limit": 2,
+                      "lower_size": 1,
+                      "upper_size": 2,
+                      "type": "minecraft:two_layers_feature_size"
+                    },
+                    "decorators": [
+                      {
+                        "type": "minecraft:trunk_vine"
+                      }
+                    ],
+                    "trunk_provider": {
+                      "state": {
+                        "Properties": {
+                          "axis": "y"
+                        },
+                        "Name": "minecraft:acacia_log"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "leaves_provider": {
+                      "entries": [
+                        {
+                          "weight": 95,
+                          "data": {
+                            "Properties": {
+                              "persistent": "false",
+                              "distance": "1"
+                            },
+                            "Name": "minecraft:acacia_leaves"
+                          }
+                        },
+                        {
+                          "weight": 1,
+                          "data": {
+                            "Name": "minecraft:shroomlight"
+                          }
+                        }
+                      ],
+                      "type": "minecraft:weighted_state_provider"
+                    },
+                    "foliage_placer": {
+                      "radius": {
+                        "base": 2,
+                        "spread": 1
+                      },
+                      "offset": 1,
+                      "height": 3,
+                      "type": "minecraft:fancy_foliage_placer"
+                    },
+                    "trunk_placer": {
+                      "base_height": 9,
+                      "height_rand_a": 2,
+                      "height_rand_b": 2,
+                      "type": "minecraft:fancy_trunk_placer"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "chance": 0.35
+              }
+            ],
+            "default": {
+              "config": {
+                "max_water_depth": 0,
+                "ignore_vines": true,
+                "heightmap": "OCEAN_FLOOR",
+                "minimum_size": {
+                  "limit": 2,
+                  "lower_size": 1,
+                  "upper_size": 2,
+                  "type": "minecraft:two_layers_feature_size"
+                },
+                "decorators": [
+                  {
+                    "type": "minecraft:trunk_vine"
+                  }
+                ],
+                "trunk_provider": {
+                  "state": {
+                    "Properties": {
+                      "axis": "y"
+                    },
+                    "Name": "minecraft:acacia_log"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "leaves_provider": {
+                  "entries": [
+                    {
+                      "weight": 95,
+                      "data": {
+                        "Properties": {
+                          "persistent": "false",
+                          "distance": "1"
+                        },
+                        "Name": "minecraft:acacia_leaves"
+                      }
+                    },
+                    {
+                      "weight": 1,
+                      "data": {
+                        "Name": "minecraft:shroomlight"
+                      }
+                    }
+                  ],
+                  "type": "minecraft:weighted_state_provider"
+                },
+                "foliage_placer": {
+                  "radius": {
+                    "base": 2,
+                    "spread": 1
+                  },
+                  "offset": 1,
+                  "height": 2,
+                  "type": "minecraft:fancy_foliage_placer"
+                },
+                "trunk_placer": {
+                  "base_height": 6,
+                  "height_rand_a": 2,
+                  "height_rand_b": 1,
+                  "type": "minecraft:forking_trunk_placer"
+                }
+              },
+              "type": "minecraft:tree"
+            }
+          },
+          "type": "minecraft:random_selector"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 3,
+        "extra_chance": 0.35,
+        "extra_count": 1
+      },
+      "type": "minecraft:count_extra"
+    }
+  },
+  "type": "minecraft:decorated"
+}

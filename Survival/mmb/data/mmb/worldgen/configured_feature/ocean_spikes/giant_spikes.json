@@ -1,0 +1,47 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": "mmb:ocean_spikes/stone_spike_1",
+                "chance": 0.4
+              },
+              {
+                "feature": "mmb:ocean_spikes/stone_spike_2",
+                "chance": 0.65
+              }
+            ],
+            "default": "mmb:ocean_spikes/stone_spike_3"
+          },
+          "type": "minecraft:random_selector"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:iceberg"
+            },
+            "inner": {
+              "config": {},
+              "type": "top_solid_heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 0,
+        "extra_chance": 0.225,
+        "extra_count": 1
+      },
+      "type": "minecraft:count_extra"
+    }
+  },
+  "type": "minecraft:decorated"
+}

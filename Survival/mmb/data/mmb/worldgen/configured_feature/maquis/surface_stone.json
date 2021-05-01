@@ -1,0 +1,67 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "feature": {
+                  "config": {
+                    "target": {
+                      "block": "minecraft:grass_block",
+                      "probability": 0.125,
+                      "predicate_type": "minecraft:random_block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:stone"
+                    },
+                    "size": 32
+                  },
+                  "type": "minecraft:ore"
+                },
+                "decorator": {
+                  "config": {
+                    "outer": {
+                      "config": {},
+                      "type": "minecraft:square"
+                    },
+                    "inner": {
+                      "config": {},
+                      "type": "minecraft:top_solid_heightmap"
+                    }
+                  },
+                  "type": "minecraft:decorated"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "decorator": {
+              "config": {
+                "chance": 30
+              },
+              "type": "minecraft:chance"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "noise_to_count_ratio": 30,
+            "noise_factor": 240.0,
+            "noise_offset": 0.8
+          },
+          "type": "minecraft:count_noise_biased"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 24
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

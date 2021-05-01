@@ -1,0 +1,174 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "config": {
+                  "can_replace": true,
+                  "project": false,
+                  "need_water": false,
+                  "xspread": 1,
+                  "yspread": 3,
+                  "zspread": 2,
+                  "whitelist": [],
+                  "blacklist": [],
+                  "tries": 105,
+                  "state_provider": {
+                    "state": {
+                      "Name": "minecraft:stone"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
+                  "block_placer": {
+                    "type": "minecraft:simple_block_placer"
+                  }
+                },
+                "type": "minecraft:random_patch"
+              },
+              {
+                "config": {
+                  "can_replace": true,
+                  "project": false,
+                  "need_water": false,
+                  "xspread": 2,
+                  "yspread": 3,
+                  "zspread": 1,
+                  "whitelist": [],
+                  "blacklist": [],
+                  "tries": 105,
+                  "state_provider": {
+                    "state": {
+                      "Name": "minecraft:stone"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
+                  "block_placer": {
+                    "type": "minecraft:simple_block_placer"
+                  }
+                },
+                "type": "minecraft:random_patch"
+              },
+              {
+                "config": {
+                  "can_replace": true,
+                  "project": false,
+                  "need_water": false,
+                  "xspread": 3,
+                  "yspread": 2,
+                  "zspread": 2,
+                  "whitelist": [],
+                  "blacklist": [],
+                  "tries": 175,
+                  "state_provider": {
+                    "state": {
+                      "Name": "minecraft:stone"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
+                  "block_placer": {
+                    "type": "minecraft:simple_block_placer"
+                  }
+                },
+                "type": "minecraft:random_patch"
+              },
+              {
+                "config": {
+                  "can_replace": true,
+                  "project": false,
+                  "need_water": false,
+                  "xspread": 2,
+                  "yspread": 2,
+                  "zspread": 3,
+                  "whitelist": [],
+                  "blacklist": [],
+                  "tries": 175,
+                  "state_provider": {
+                    "state": {
+                      "Name": "minecraft:stone"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
+                  "block_placer": {
+                    "type": "minecraft:simple_block_placer"
+                  }
+                },
+                "type": "minecraft:random_patch"
+              },
+              {
+                "config": {
+                  "can_replace": true,
+                  "project": false,
+                  "need_water": false,
+                  "xspread": 4,
+                  "yspread": 1,
+                  "zspread": 3,
+                  "whitelist": [],
+                  "blacklist": [],
+                  "tries": 135,
+                  "state_provider": {
+                    "state": {
+                      "Name": "minecraft:stone"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
+                  "block_placer": {
+                    "type": "minecraft:simple_block_placer"
+                  }
+                },
+                "type": "minecraft:random_patch"
+              },
+              {
+                "config": {
+                  "can_replace": true,
+                  "project": false,
+                  "need_water": false,
+                  "xspread": 3,
+                  "yspread": 1,
+                  "zspread": 4,
+                  "whitelist": [],
+                  "blacklist": [],
+                  "tries": 135,
+                  "state_provider": {
+                    "state": {
+                      "Name": "minecraft:stone"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
+                  "block_placer": {
+                    "type": "minecraft:simple_block_placer"
+                  }
+                },
+                "type": "minecraft:random_patch"
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "decorator": {
+          "config": {
+            "count": 80
+          },
+          "type": "minecraft:count"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "outer": {
+          "config": {},
+          "type": "minecraft:iceberg"
+        },
+        "inner": {
+          "config": {},
+          "type": "minecraft:top_solid_heightmap"
+        }
+      },
+      "type": "minecraft:decorated"
+    }
+  },
+  "type": "minecraft:decorated"
+}

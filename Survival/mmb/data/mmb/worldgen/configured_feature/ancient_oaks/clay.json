@@ -1,0 +1,62 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "state": {
+                  "Name": "minecraft:clay"
+                },
+                "radius": {
+                  "base": 3,
+                  "spread": 1
+                },
+                "half_height": 2,
+                "targets": [
+                  {
+                    "Name": "minecraft:dirt"
+                  }
+                ]
+              },
+              "type": "minecraft:disk"
+            },
+            "decorator": {
+              "config": {
+                "bottom_offset": 62,
+                "top_offset": 0,
+                "maximum": 28
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "outer": {
+          "config": {
+            "count": 128
+          },
+          "type": "minecraft:count"
+        },
+        "inner": {
+          "config": {
+            "count": 8
+          },
+          "type": "minecraft:count"
+        }
+      },
+      "type": "minecraft:decorated"
+    }
+  },
+  "type": "minecraft:decorated"
+}

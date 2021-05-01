@@ -1,0 +1,82 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "to_place": {
+                  "Properties": {
+                    "persistent": "false",
+                    "distance": "2"
+                  },
+                  "Name": "minecraft:spruce_leaves"
+                },
+                "place_on": [
+                  {
+                    "Name": "minecraft:air"
+                  },
+                  {
+                    "Properties": {
+                      "persistent": "false",
+                      "distance": "1"
+                    },
+                    "Name": "minecraft:spruce_leaves"
+                  }
+                ],
+                "place_in": [
+                  {
+                    "Name": "minecraft:air"
+                  }
+                ],
+                "place_under": [
+                  {
+                    "Properties": {
+                      "persistent": "false",
+                      "distance": "1"
+                    },
+                    "Name": "minecraft:spruce_leaves"
+                  }
+                ]
+              },
+              "type": "minecraft:simple_block"
+            },
+            "decorator": {
+              "config": {
+                "bottom_offset": 70,
+                "top_offset": 0,
+                "maximum": 24
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "outer": {
+          "config": {
+            "count": 128
+          },
+          "type": "minecraft:count"
+        },
+        "inner": {
+          "config": {
+            "count": 8
+          },
+          "type": "minecraft:count"
+        }
+      },
+      "type": "minecraft:decorated"
+    }
+  },
+  "type": "minecraft:decorated"
+}

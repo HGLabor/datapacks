@@ -1,0 +1,178 @@
+{
+  "starts": [
+    "minecraft:mineshaft",
+    "minecraft:stronghold",
+    "minecraft:ruined_portal_nether"
+  ],
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "misc": [],
+    "water_creature": [],
+    "creature": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 400,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:magma_cube": {
+      "energy_budget": 0.05,
+      "charge": 0.7
+    }
+  },
+  "player_spawn_friendly": false,
+  "surface_builder": "mmb:volcano",
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "mmb:volcano/lava_river/1",
+      "mmb:volcano/lava_river/2",
+      "mmb:volcano/lava_river/3",
+      "mmb:volcano/lava_river/4",
+      "mmb:volcano/lava_river/5",
+      "mmb:volcano/lava_river/6",
+      "mmb:volcano/lava_river/7",
+      "mmb:volcano/lava_river/8",
+      "mmb:volcano/lava_river/9"
+    ],
+    [
+      "minecraft:lake_lava"
+    ],
+    [],
+    [
+      "minecraft:monster_room",
+      "mmb:volcano/lava_feature_1",
+      "mmb:volcano/lava_feature_2",
+      "mmb:volcano/basalt_columns"
+    ],
+    [
+      "mmb:volcano/mini_volcano_2_ores",
+      "mmb:volcano/crimson_to_blackstone"
+    ],
+    [],
+    [
+      "mmb:ore_dirt_70",
+      "mmb:volcano/obsidian",
+      "mmb:volcano/iron",
+      "mmb:volcano/gold",
+      "mmb:volcano/magma_block",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
+      "minecraft:ore_coal",
+      "minecraft:ore_iron",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
+      "minecraft:ore_lapis"
+    ],
+    [],
+    [
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "mmb:volcano/lava_spring"
+    ],
+    [
+      "minecraft:spring_lava_double",
+      "mmb:volcano/basalt"
+    ]
+  ],
+  "scale": 0.0375,
+  "temperature": 1.0,
+  "downfall": 0.0,
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_delay": 3000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "music": {
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "min_delay": 3000,
+      "max_delay": 6000,
+      "replace_current_music": false
+    },
+    "sky_color": 5790308,
+    "fog_color": 11059416,
+    "foliage_color": 7893104,
+    "grass_color": 3420722,
+    "water_color": 12628048,
+    "water_fog_color": 8421424,
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.001875
+    }
+  },
+  "precipitation": "none",
+  "category": "desert",
+  "depth": 1.5
+}

@@ -1,0 +1,14 @@
+{
+  "name": "mmb:pillager_settlement/sand",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "feature": "mmb:pillager_settlement_sand",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:feature_pool_element"
+      }
+    }
+  ]
+}

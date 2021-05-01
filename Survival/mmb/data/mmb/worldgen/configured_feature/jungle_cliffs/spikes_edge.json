@@ -1,0 +1,67 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": "mmb:jungle_cliffs/spike/medium",
+                        "chance": 0.33
+                      }
+                    ],
+                    "default": "mmb:jungle_cliffs/spike/tall"
+                  },
+                  "type": "minecraft:random_selector"
+                },
+                "decorator": {
+                  "config": {
+                    "noise_to_count_ratio": 1,
+                    "noise_factor": 240.0,
+                    "noise_offset": -0.2
+                  },
+                  "type": "minecraft:count_noise_biased"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "decorator": {
+              "config": {
+                "noise_to_count_ratio": -1,
+                "noise_factor": 240.0,
+                "noise_offset": -0.4
+              },
+              "type": "minecraft:count_noise_biased"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:top_solid_heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 2
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

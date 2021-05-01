@@ -1,0 +1,39 @@
+{
+  "name": "mmb:pillager_settlement/side_decor",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "location": "mmb:pillager_settlement/decor_pile",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "mmb:pillager_settlement/decor_target",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "mmb:pillager_settlement/decor_tree",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}

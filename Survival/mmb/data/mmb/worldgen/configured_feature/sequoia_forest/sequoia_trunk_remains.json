@@ -1,0 +1,52 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "features": [
+          {
+            "feature": {
+              "config": {
+                "feature": "mmb:sequoia_forest/sequoia_base",
+                "decorator": {
+                  "config": {
+                    "count": 48
+                  },
+                  "type": "minecraft:count"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "chance": 0.25
+          }
+        ],
+        "default": {
+          "config": {
+            "feature": "mmb:sequoia_forest/sequoia_base_small",
+            "decorator": {
+              "config": {
+                "count": 48
+              },
+              "type": "minecraft:count"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:random_selector"
+    },
+    "decorator": {
+      "config": {
+        "outer": {
+          "config": {},
+          "type": "minecraft:square"
+        },
+        "inner": {
+          "config": {},
+          "type": "minecraft:heightmap_world_surface"
+        }
+      },
+      "type": "minecraft:decorated"
+    }
+  },
+  "type": "minecraft:decorated"
+}

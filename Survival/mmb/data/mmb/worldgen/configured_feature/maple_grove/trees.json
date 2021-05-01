@@ -1,0 +1,12 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "mmb:maple_grove/big_tree",
+        "chance": 0.05
+      }
+    ],
+    "default": "mmb:maple_grove/small_trees"
+  },
+  "type": "minecraft:random_selector"
+}

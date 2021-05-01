@@ -1,0 +1,138 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "config": {
+                  "feature": {
+                    "config": {
+                      "max_water_depth": 0,
+                      "ignore_vines": false,
+                      "heightmap": "OCEAN_FLOOR_WG",
+                      "minimum_size": {
+                        "limit": 0,
+                        "lower_size": 0,
+                        "upper_size": 0,
+                        "type": "minecraft:two_layers_feature_size"
+                      },
+                      "decorators": [],
+                      "trunk_provider": {
+                        "state": {
+                          "Properties": {
+                            "axis": "y"
+                          },
+                          "Name": "minecraft:spruce_log"
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      },
+                      "leaves_provider": {
+                        "state": {
+                          "Properties": {
+                            "axis": "y"
+                          },
+                          "Name": "minecraft:spruce_log"
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      },
+                      "foliage_placer": {
+                        "radius": 1,
+                        "offset": 0,
+                        "height": 3,
+                        "type": "minecraft:blob_foliage_placer"
+                      },
+                      "trunk_placer": {
+                        "base_height": 1,
+                        "height_rand_a": 16,
+                        "height_rand_b": 0,
+                        "type": "minecraft:straight_trunk_placer"
+                      }
+                    },
+                    "type": "minecraft:tree"
+                  },
+                  "decorator": {
+                    "config": {
+                      "count": 40
+                    },
+                    "type": "minecraft:count"
+                  }
+                },
+                "type": "minecraft:decorated"
+              },
+              {
+                "config": {
+                  "max_water_depth": 0,
+                  "ignore_vines": false,
+                  "heightmap": "OCEAN_FLOOR_WG",
+                  "minimum_size": {
+                    "limit": 0,
+                    "lower_size": 0,
+                    "upper_size": 0,
+                    "type": "minecraft:two_layers_feature_size"
+                  },
+                  "decorators": [],
+                  "trunk_provider": {
+                    "state": {
+                      "Properties": {
+                        "axis": "y"
+                      },
+                      "Name": "minecraft:spruce_log"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
+                  "leaves_provider": {
+                    "state": {
+                      "Properties": {
+                        "persistent": "false",
+                        "distance": "7"
+                      },
+                      "Name": "minecraft:oak_leaves"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
+                  "foliage_placer": {
+                    "radius": 3,
+                    "offset": 2,
+                    "height": 2,
+                    "type": "minecraft:blob_foliage_placer"
+                  },
+                  "trunk_placer": {
+                    "base_height": 16,
+                    "height_rand_a": 4,
+                    "height_rand_b": 1,
+                    "type": "minecraft:fancy_trunk_placer"
+                  }
+                },
+                "type": "minecraft:tree"
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "decorator": {
+          "config": {
+            "count": 20
+          },
+          "type": "minecraft:count"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "outer": {
+          "config": {},
+          "type": "minecraft:iceberg"
+        },
+        "inner": {
+          "config": {},
+          "type": "minecraft:heightmap"
+        }
+      },
+      "type": "minecraft:decorated"
+    }
+  },
+  "type": "minecraft:decorated"
+}

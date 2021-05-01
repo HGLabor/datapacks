@@ -1,0 +1,69 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "can_replace": true,
+                "project": false,
+                "need_water": false,
+                "xspread": 0,
+                "yspread": 0,
+                "zspread": 0,
+                "whitelist": [
+                  {
+                    "Name": "minecraft:stone"
+                  }
+                ],
+                "blacklist": [],
+                "tries": 1,
+                "state_provider": {
+                  "state": {
+                    "Name": "minecraft:stone"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "block_placer": {
+                  "min_size": 1,
+                  "extra_size": 2,
+                  "type": "minecraft:column_placer"
+                }
+              },
+              "type": "minecraft:random_patch"
+            },
+            "decorator": {
+              "config": {
+                "outer": {
+                  "config": {},
+                  "type": "minecraft:square"
+                },
+                "inner": {
+                  "config": {},
+                  "type": "top_solid_heightmap"
+                }
+              },
+              "type": "minecraft:decorated"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "count": 128
+          },
+          "type": "minecraft:count"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 6
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

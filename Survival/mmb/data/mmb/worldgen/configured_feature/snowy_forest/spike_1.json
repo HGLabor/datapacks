@@ -1,0 +1,208 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "features": [
+          {
+            "config": {
+              "can_replace": true,
+              "project": false,
+              "need_water": false,
+              "xspread": 0,
+              "yspread": 5,
+              "zspread": 0,
+              "whitelist": [],
+              "blacklist": [
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Properties": {
+                    "level": "0"
+                  },
+                  "Name": "minecraft:water"
+                }
+              ],
+              "tries": 2,
+              "state_provider": {
+                "state": {
+                  "Name": "minecraft:ice"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "block_placer": {
+                "min_size": 1,
+                "extra_size": 1,
+                "type": "minecraft:column_placer"
+              }
+            },
+            "type": "minecraft:random_patch"
+          },
+          {
+            "config": {
+              "can_replace": true,
+              "project": false,
+              "need_water": false,
+              "xspread": 1,
+              "yspread": 3,
+              "zspread": 1,
+              "whitelist": [],
+              "blacklist": [
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Properties": {
+                    "level": "0"
+                  },
+                  "Name": "minecraft:water"
+                }
+              ],
+              "tries": 12,
+              "state_provider": {
+                "state": {
+                  "Name": "minecraft:ice"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "block_placer": {
+                "min_size": 1,
+                "extra_size": 1,
+                "type": "minecraft:column_placer"
+              }
+            },
+            "type": "minecraft:random_patch"
+          },
+          {
+            "config": {
+              "can_replace": true,
+              "project": false,
+              "need_water": false,
+              "xspread": 2,
+              "yspread": 1,
+              "zspread": 1,
+              "whitelist": [],
+              "blacklist": [
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Properties": {
+                    "level": "0"
+                  },
+                  "Name": "minecraft:water"
+                }
+              ],
+              "tries": 4,
+              "state_provider": {
+                "state": {
+                  "Name": "minecraft:ice"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "block_placer": {
+                "min_size": 1,
+                "extra_size": 1,
+                "type": "minecraft:column_placer"
+              }
+            },
+            "type": "minecraft:random_patch"
+          },
+          {
+            "config": {
+              "can_replace": true,
+              "project": false,
+              "need_water": false,
+              "xspread": 1,
+              "yspread": 1,
+              "zspread": 2,
+              "whitelist": [],
+              "blacklist": [
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Properties": {
+                    "level": "0"
+                  },
+                  "Name": "minecraft:water"
+                }
+              ],
+              "tries": 4,
+              "state_provider": {
+                "state": {
+                  "Name": "minecraft:ice"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "block_placer": {
+                "min_size": 1,
+                "extra_size": 1,
+                "type": "minecraft:column_placer"
+              }
+            },
+            "type": "minecraft:random_patch"
+          },
+          {
+            "config": {
+              "target": {
+                "tag": "mmb:grass_dirt",
+                "predicate_type": "minecraft:tag_match"
+              },
+              "state": {
+                "Name": "minecraft:snow_block"
+              },
+              "size": 24
+            },
+            "type": "minecraft:ore"
+          },
+          {
+            "config": {
+              "feature": {
+                "config": {
+                  "feature": {
+                    "config": {
+                      "target": {
+                        "block": "minecraft:ice",
+                        "predicate_type": "minecraft:block_match"
+                      },
+                      "state": {
+                        "Name": "minecraft:packed_ice"
+                      },
+                      "size": 24
+                    },
+                    "type": "minecraft:no_surface_ore"
+                  },
+                  "decorator": {
+                    "config": {
+                      "bottom_offset": 64,
+                      "top_offset": 0,
+                      "maximum": 26
+                    },
+                    "type": "minecraft:range"
+                  }
+                },
+                "type": "minecraft:decorated"
+              },
+              "decorator": {
+                "config": {
+                  "count": 20
+                },
+                "type": "minecraft:count"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        ]
+      },
+      "type": "minecraft:simple_random_selector"
+    },
+    "decorator": {
+      "config": {
+        "count": 64
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

@@ -1,0 +1,124 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "feature": {
+                  "config": {
+                    "feature": {
+                      "config": {
+                        "can_replace": false,
+                        "project": false,
+                        "need_water": false,
+                        "xspread": 6,
+                        "yspread": 3,
+                        "zspread": 6,
+                        "whitelist": [
+                          {
+                            "Properties": {
+                              "snowy": "false"
+                            },
+                            "Name": "minecraft:grass_block"
+                          }
+                        ],
+                        "blacklist": [],
+                        "tries": 1,
+                        "state_provider": {
+                          "entries": [
+                            {
+                              "weight": 9,
+                              "data": {
+                                "Properties": {
+                                  "age": "3"
+                                },
+                                "Name": "minecraft:sweet_berry_bush"
+                              }
+                            },
+                            {
+                              "weight": 6,
+                              "data": {
+                                "Properties": {
+                                  "age": "2"
+                                },
+                                "Name": "minecraft:sweet_berry_bush"
+                              }
+                            },
+                            {
+                              "weight": 1,
+                              "data": {
+                                "Properties": {
+                                  "age": "1"
+                                },
+                                "Name": "minecraft:sweet_berry_bush"
+                              }
+                            }
+                          ],
+                          "type": "minecraft:weighted_state_provider"
+                        },
+                        "block_placer": {
+                          "type": "minecraft:simple_block_placer"
+                        }
+                      },
+                      "type": "minecraft:random_patch"
+                    },
+                    "decorator": {
+                      "config": {
+                        "count": 32
+                      },
+                      "type": "minecraft:count"
+                    }
+                  },
+                  "type": "minecraft:decorated"
+                },
+                "decorator": {
+                  "config": {
+                    "noise_to_count_ratio": -1,
+                    "noise_factor": 560.0,
+                    "noise_offset": 0.125
+                  },
+                  "type": "minecraft:count_noise_biased"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "decorator": {
+              "config": {
+                "noise_to_count_ratio": 1,
+                "noise_factor": 560.0,
+                "noise_offset": 0.85
+              },
+              "type": "minecraft:count_noise_biased"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:top_solid_heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 0,
+        "extra_chance": 0.2,
+        "extra_count": 1
+      },
+      "type": "minecraft:count_extra"
+    }
+  },
+  "type": "minecraft:decorated"
+}

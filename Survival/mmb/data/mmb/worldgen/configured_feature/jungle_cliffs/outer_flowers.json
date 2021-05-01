@@ -1,0 +1,90 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "can_replace": false,
+                "project": false,
+                "need_water": false,
+                "xspread": 4,
+                "yspread": 3,
+                "zspread": 4,
+                "whitelist": [],
+                "blacklist": [],
+                "tries": 5,
+                "state_provider": {
+                  "entries": [
+                    {
+                      "weight": 2,
+                      "data": {
+                        "Name": "minecraft:azure_bluet"
+                      }
+                    },
+                    {
+                      "weight": 1,
+                      "data": {
+                        "Name": "minecraft:dandelion"
+                      }
+                    },
+                    {
+                      "weight": 1,
+                      "data": {
+                        "Name": "minecraft:allium"
+                      }
+                    },
+                    {
+                      "weight": 4,
+                      "data": {
+                        "Name": "minecraft:poppy"
+                      }
+                    }
+                  ],
+                  "type": "minecraft:weighted_state_provider"
+                },
+                "block_placer": {
+                  "type": "minecraft:simple_block_placer"
+                }
+              },
+              "type": "minecraft:flower"
+            },
+            "decorator": {
+              "config": {
+                "noise_to_count_ratio": -3,
+                "noise_factor": 240.0,
+                "noise_offset": -0.2
+              },
+              "type": "minecraft:count_noise_biased"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap_world_surface"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 1,
+        "extra_chance": 0.2,
+        "extra_count": 1
+      },
+      "type": "minecraft:count_extra"
+    }
+  },
+  "type": "minecraft:decorated"
+}

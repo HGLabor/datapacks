@@ -1,0 +1,19 @@
+{
+  "values": [
+    "minecraft:obsidian",
+    "minecraft:coal_ore",
+    "minecraft:iron_ore",
+    "minecraft:gold_ore",
+    "minecraft:basalt",
+    "minecraft:blackstone",
+    "minecraft:magma_block",
+    "minecraft:stone",
+    "minecraft:andesite",
+    "minecraft:diorite",
+    "minecraft:granite",
+    "minecraft:gravel",
+    "minecraft:dirt",
+    "minecraft:sand",
+    "minecraft:lava"
+  ]
+}

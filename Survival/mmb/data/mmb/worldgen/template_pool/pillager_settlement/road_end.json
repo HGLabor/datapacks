@@ -1,0 +1,15 @@
+{
+  "name": "mmb:pillager_settlement/road_end",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "mmb:pillager_settlement/road_end",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

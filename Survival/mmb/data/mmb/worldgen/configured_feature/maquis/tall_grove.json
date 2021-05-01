@@ -1,0 +1,60 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "features": [
+                  {
+                    "feature": "mmb:maquis/tall_tree",
+                    "chance": 0.75
+                  },
+                  {
+                    "feature": "mmb:maquis/tall_shrub",
+                    "chance": 0.5
+                  }
+                ],
+                "default": "mmb:maquis/small_shrub"
+              },
+              "type": "minecraft:random_selector"
+            },
+            "decorator": {
+              "config": {
+                "noise_to_count_ratio": -1,
+                "noise_factor": 160.0,
+                "noise_offset": 0.65
+              },
+              "type": "minecraft:count_noise_biased"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:top_solid_heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 2,
+        "extra_chance": 0.05,
+        "extra_count": 1
+      },
+      "type": "minecraft:count_extra"
+    }
+  },
+  "type": "minecraft:decorated"
+}

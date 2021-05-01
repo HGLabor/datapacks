@@ -1,0 +1,192 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "can_replace": true,
+                "project": false,
+                "need_water": false,
+                "xspread": 0,
+                "yspread": 0,
+                "zspread": 0,
+                "whitelist": [],
+                "blacklist": [],
+                "tries": 1,
+                "state_provider": {
+                  "entries": [
+                    {
+                      "weight": 18,
+                      "data": {
+                        "Properties": {
+                          "age": "7"
+                        },
+                        "Name": "minecraft:wheat"
+                      }
+                    },
+                    {
+                      "weight": 6,
+                      "data": {
+                        "Properties": {
+                          "age": "5"
+                        },
+                        "Name": "minecraft:wheat"
+                      }
+                    },
+                    {
+                      "weight": 3,
+                      "data": {
+                        "Properties": {
+                          "age": "3"
+                        },
+                        "Name": "minecraft:wheat"
+                      }
+                    },
+                    {
+                      "weight": 1,
+                      "data": {
+                        "Properties": {
+                          "age": "1"
+                        },
+                        "Name": "minecraft:wheat"
+                      }
+                    },
+                    {
+                      "weight": 8,
+                      "data": {
+                        "Properties": {
+                          "age": "7"
+                        },
+                        "Name": "minecraft:potatoes"
+                      }
+                    },
+                    {
+                      "weight": 2,
+                      "data": {
+                        "Properties": {
+                          "age": "5"
+                        },
+                        "Name": "minecraft:potatoes"
+                      }
+                    },
+                    {
+                      "weight": 1,
+                      "data": {
+                        "Properties": {
+                          "age": "3"
+                        },
+                        "Name": "minecraft:potatoes"
+                      }
+                    },
+                    {
+                      "weight": 6,
+                      "data": {
+                        "Properties": {
+                          "age": "7"
+                        },
+                        "Name": "minecraft:carrots"
+                      }
+                    },
+                    {
+                      "weight": 2,
+                      "data": {
+                        "Properties": {
+                          "age": "5"
+                        },
+                        "Name": "minecraft:carrots"
+                      }
+                    },
+                    {
+                      "weight": 1,
+                      "data": {
+                        "Properties": {
+                          "age": "3"
+                        },
+                        "Name": "minecraft:carrots"
+                      }
+                    },
+                    {
+                      "weight": 4,
+                      "data": {
+                        "Properties": {
+                          "age": "3"
+                        },
+                        "Name": "minecraft:beetroots"
+                      }
+                    },
+                    {
+                      "weight": 1,
+                      "data": {
+                        "Properties": {
+                          "age": "2"
+                        },
+                        "Name": "minecraft:beetroots"
+                      }
+                    },
+                    {
+                      "weight": 1,
+                      "data": {
+                        "Properties": {
+                          "age": "1"
+                        },
+                        "Name": "minecraft:beetroots"
+                      }
+                    }
+                  ],
+                  "type": "minecraft:weighted_state_provider"
+                },
+                "block_placer": {
+                  "type": "minecraft:simple_block_placer"
+                }
+              },
+              "type": "minecraft:random_patch"
+            },
+            "decorator": {
+              "config": {
+                "noise_to_count_ratio": 1,
+                "noise_factor": 12.0,
+                "noise_offset": -0.725
+              },
+              "type": "minecraft:count_noise_biased"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap_world_surface"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "outer": {
+          "config": {
+            "count": 128
+          },
+          "type": "minecraft:count"
+        },
+        "inner": {
+          "config": {
+            "count": 22
+          },
+          "type": "minecraft:count"
+        }
+      },
+      "type": "minecraft:decorated"
+    }
+  },
+  "type": "minecraft:decorated"
+}

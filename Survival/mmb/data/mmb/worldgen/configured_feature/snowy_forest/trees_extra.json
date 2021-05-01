@@ -1,0 +1,159 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "max_water_depth": 0,
+                    "ignore_vines": true,
+                    "heightmap": "OCEAN_FLOOR",
+                    "minimum_size": {
+                      "limit": 0,
+                      "lower_size": 0,
+                      "upper_size": 0,
+                      "type": "minecraft:two_layers_feature_size"
+                    },
+                    "decorators": [
+                      {
+                        "provider": {
+                          "state": {
+                            "Name": "minecraft:snow_block"
+                          },
+                          "type": "minecraft:simple_state_provider"
+                        },
+                        "type": "minecraft:alter_ground"
+                      }
+                    ],
+                    "trunk_provider": {
+                      "state": {
+                        "Properties": {
+                          "axis": "y"
+                        },
+                        "Name": "minecraft:acacia_log"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "leaves_provider": {
+                      "state": {
+                        "Properties": {
+                          "persistent": "false",
+                          "distance": "1"
+                        },
+                        "Name": "minecraft:acacia_leaves"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "foliage_placer": {
+                      "radius": 2,
+                      "offset": 1,
+                      "trunk_height": {
+                        "base": 2,
+                        "spread": 1
+                      },
+                      "type": "minecraft:spruce_foliage_placer"
+                    },
+                    "trunk_placer": {
+                      "base_height": 7,
+                      "height_rand_a": 2,
+                      "height_rand_b": 2,
+                      "type": "minecraft:straight_trunk_placer"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "chance": 0.4
+              }
+            ],
+            "default": {
+              "config": {
+                "max_water_depth": 0,
+                "ignore_vines": true,
+                "heightmap": "OCEAN_FLOOR",
+                "minimum_size": {
+                  "limit": 0,
+                  "lower_size": 0,
+                  "upper_size": 0,
+                  "type": "minecraft:two_layers_feature_size"
+                },
+                "decorators": [
+                  {
+                    "provider": {
+                      "state": {
+                        "Name": "minecraft:snow_block"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "type": "minecraft:alter_ground"
+                  }
+                ],
+                "trunk_provider": {
+                  "state": {
+                    "Properties": {
+                      "axis": "y"
+                    },
+                    "Name": "minecraft:acacia_log"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "leaves_provider": {
+                  "state": {
+                    "Properties": {
+                      "persistent": "false",
+                      "distance": "1"
+                    },
+                    "Name": "minecraft:acacia_leaves"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "foliage_placer": {
+                  "radius": 2,
+                  "offset": 3,
+                  "crown_height": {
+                    "base": 6,
+                    "spread": 2
+                  },
+                  "type": "minecraft:mega_pine_foliage_placer"
+                },
+                "trunk_placer": {
+                  "base_height": 7,
+                  "height_rand_a": 2,
+                  "height_rand_b": 1,
+                  "type": "minecraft:straight_trunk_placer"
+                }
+              },
+              "type": "minecraft:tree"
+            }
+          },
+          "type": "minecraft:random_selector"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:iceberg"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap_world_surface"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 1,
+        "extra_chance": 0.15,
+        "extra_count": 1
+      },
+      "type": "minecraft:count_extra"
+    }
+  },
+  "type": "minecraft:decorated"
+}

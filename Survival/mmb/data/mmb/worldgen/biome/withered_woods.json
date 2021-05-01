@@ -1,0 +1,217 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 1000,
+      "block_search_extent": 24,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.nether_wastes.mood",
+      "tick_chance": 0.00025
+    },
+    "music": {
+      "sound": "minecraft:music_disc.ward",
+      "min_delay": 18000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:falling_obsidian_tear"
+      },
+      "probability": 0.000175
+    },
+    "ambient_sound": "minecraft:ambient.warped_forest.loop",
+    "sky_color": 7893120,
+    "fog_color": 13156568,
+    "foliage_color": 4206664,
+    "grass_color": 8419460,
+    "water_color": 8140952,
+    "water_fog_color": 1574940
+  },
+  "surface_builder": "minecraft:grass",
+  "carvers": {
+    "air": [
+      "mmb:cave_double",
+      "mmb:canyon_triple"
+    ]
+  },
+  "features": [
+    [
+      "mmb:withered_woods/mycelium"
+    ],
+    [
+      "mmb:lake_lava_common",
+      "mmb:lake_water_rare"
+    ],
+    [],
+    [
+      "mmb:monster_room_10"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
+      "minecraft:ore_coal",
+      "minecraft:ore_iron",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "mmb:withered_woods/more_redstone",
+      "minecraft:ore_diamond",
+      "minecraft:ore_lapis",
+      "mmb:withered_woods/more_lapis",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [],
+    [
+      "mmb:withered_woods/logs",
+      "mmb:withered_woods/trees",
+      "mmb:withered_woods/pumpkin",
+      "mmb:withered_woods/obsidian",
+      "mmb:grass_medium",
+      "mmb:withered_woods/ferns",
+      "mmb:withered_woods/tall_grass",
+      "mmb:withered_woods/tall_ferns",
+      "mmb:withered_woods/roses",
+      "mmb:withered_woods/dead_bush",
+      "mmb:brown_mushroom_common",
+      "mmb:red_mushroom_common",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "starts": [
+    "minecraft:mineshaft",
+    "minecraft:stronghold",
+    "minecraft:ruined_portal"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 8,
+        "maxCount": 8
+      },
+      {
+        "type": "minecraft:cave_spider",
+        "weight": 100,
+        "minCount": 8,
+        "maxCount": 8
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 25,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 60,
+        "minCount": 2,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:pillager",
+        "weight": 25,
+        "minCount": 4,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:ravager",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:vindicator",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:skeleton_horse",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:zombie_horse",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {
+    "minecraft:spider": {
+      "energy_budget": 0.6,
+      "charge": 0.0125
+    },
+    "minecraft:cave_spider": {
+      "energy_budget": 0.5,
+      "charge": 0.025
+    },
+    "minecraft:enderman": {
+      "energy_budget": 0.6,
+      "charge": 0.0125
+    },
+    "minecraft:zombie_villager": {
+      "energy_budget": 0.8,
+      "charge": 0.0
+    },
+    "minecraft:witch": {
+      "energy_budget": 0.5,
+      "charge": 0.025
+    },
+    "minecraft:pillager": {
+      "energy_budget": 0.5,
+      "charge": 0.025
+    },
+    "minecraft:ravager": {
+      "energy_budget": 1.5,
+      "charge": 0.5
+    },
+    "minecraft:vindicator": {
+      "energy_budget": 1.0,
+      "charge": 0.25
+    }
+  },
+  "player_spawn_friendly": false,
+  "precipitation": "none",
+  "temperature": 0.4,
+  "downfall": 0.0,
+  "category": "forest",
+  "depth": 0.3,
+  "scale": 0.05
+}

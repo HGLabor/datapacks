@@ -1,0 +1,12 @@
+{
+  "config": {
+    "feature": "minecraft:monster_room",
+    "decorator": {
+      "config": {
+        "count": 5
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

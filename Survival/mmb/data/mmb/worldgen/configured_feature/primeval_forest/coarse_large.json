@@ -1,0 +1,105 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "features": [
+                  {
+                    "config": {
+                      "target": {
+                        "block": "minecraft:podzol",
+                        "probability": 0.0125,
+                        "predicate_type": "minecraft:random_block_match"
+                      },
+                      "state": {
+                        "Name": "minecraft:coarse_dirt"
+                      },
+                      "size": 64
+                    },
+                    "type": "minecraft:ore"
+                  },
+                  {
+                    "config": {
+                      "target": {
+                        "block": "minecraft:podzol",
+                        "probability": 0.025,
+                        "predicate_type": "minecraft:random_block_match"
+                      },
+                      "state": {
+                        "Name": "minecraft:coarse_dirt"
+                      },
+                      "size": 48
+                    },
+                    "type": "minecraft:ore"
+                  },
+                  {
+                    "config": {
+                      "target": {
+                        "block": "minecraft:podzol",
+                        "probability": 0.0375,
+                        "predicate_type": "minecraft:random_block_match"
+                      },
+                      "state": {
+                        "Name": "minecraft:coarse_dirt"
+                      },
+                      "size": 32
+                    },
+                    "type": "minecraft:ore"
+                  },
+                  {
+                    "config": {
+                      "target": {
+                        "block": "minecraft:podzol",
+                        "probability": 0.05,
+                        "predicate_type": "minecraft:random_block_match"
+                      },
+                      "state": {
+                        "Name": "minecraft:coarse_dirt"
+                      },
+                      "size": 16
+                    },
+                    "type": "minecraft:ore"
+                  }
+                ]
+              },
+              "type": "minecraft:simple_random_selector"
+            },
+            "decorator": {
+              "config": {
+                "count": 32
+              },
+              "type": "minecraft:count"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap_world_surface"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 0,
+        "extra_chance": 0.225,
+        "extra_count": 1
+      },
+      "type": "minecraft:count_extra"
+    }
+  },
+  "type": "minecraft:decorated"
+}

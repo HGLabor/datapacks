@@ -1,0 +1,14 @@
+{
+  "name": "mmb:pillager_settlement/tree",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "feature": "mmb:scorched_dryland/tree",
+        "projection": "rigid",
+        "element_type": "minecraft:feature_pool_element"
+      }
+    }
+  ]
+}

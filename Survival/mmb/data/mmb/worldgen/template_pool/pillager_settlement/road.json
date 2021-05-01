@@ -1,0 +1,78 @@
+{
+  "name": "mmb:pillager_settlement/road",
+  "fallback": "mmb:pillager_settlement/road_end",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "mmb:pillager_settlement/road_corner_left",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "mmb:pillager_settlement/road_corner_right",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "mmb:pillager_settlement/road_crossroads",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "mmb:pillager_settlement/road_medium",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "mmb:pillager_settlement/road_long",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "mmb:pillager_settlement/road_short_double",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "mmb:pillager_settlement/road_short_single",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "mmb:pillager_settlement/road_empty",
+        "processors": "mmb:pillager_settlement_variation",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

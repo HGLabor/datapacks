@@ -1,0 +1,8 @@
+Many More Biomes for Minecraft 1.16.2 - 1.16.5
+
+HOW TO INSTAL:
+1: Open Minecraft and click 'Create New World'.
+2: Choose 'Data Packs' and then click 'Open Pack Folder'.
+3: Copy 'many_more_biomes.zip' file to the pack folder.
+4: Select the data pack and click 'Done'.
+5: Create the world.

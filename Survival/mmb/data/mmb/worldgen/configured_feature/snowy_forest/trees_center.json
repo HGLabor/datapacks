@@ -1,0 +1,381 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "features": [
+          {
+            "feature": {
+              "config": {
+                "max_water_depth": 0,
+                "ignore_vines": true,
+                "heightmap": "OCEAN_FLOOR",
+                "minimum_size": {
+                  "limit": 0,
+                  "lower_size": 0,
+                  "upper_size": 0,
+                  "type": "minecraft:two_layers_feature_size"
+                },
+                "decorators": [
+                  {
+                    "provider": {
+                      "state": {
+                        "Name": "minecraft:snow_block"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "type": "minecraft:alter_ground"
+                  }
+                ],
+                "trunk_provider": {
+                  "state": {
+                    "Properties": {
+                      "axis": "y"
+                    },
+                    "Name": "minecraft:acacia_log"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "leaves_provider": {
+                  "state": {
+                    "Properties": {
+                      "persistent": "false",
+                      "distance": "1"
+                    },
+                    "Name": "minecraft:acacia_leaves"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "foliage_placer": {
+                  "radius": 2,
+                  "offset": 1,
+                  "trunk_height": {
+                    "base": 3,
+                    "spread": 1
+                  },
+                  "type": "minecraft:spruce_foliage_placer"
+                },
+                "trunk_placer": {
+                  "base_height": 8,
+                  "height_rand_a": 2,
+                  "height_rand_b": 2,
+                  "type": "minecraft:straight_trunk_placer"
+                }
+              },
+              "type": "minecraft:tree"
+            },
+            "chance": 0.15
+          },
+          {
+            "feature": {
+              "config": {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "config": {
+                          "max_water_depth": 0,
+                          "ignore_vines": true,
+                          "heightmap": "OCEAN_FLOOR_WG",
+                          "minimum_size": {
+                            "limit": 0,
+                            "lower_size": 0,
+                            "upper_size": 0,
+                            "type": "minecraft:two_layers_feature_size"
+                          },
+                          "decorators": [
+                            {
+                              "provider": {
+                                "state": {
+                                  "Name": "minecraft:snow_block"
+                                },
+                                "type": "minecraft:simple_state_provider"
+                              },
+                              "type": "minecraft:alter_ground"
+                            }
+                          ],
+                          "trunk_provider": {
+                            "state": {
+                              "Properties": {
+                                "axis": "y"
+                              },
+                              "Name": "minecraft:birch_log"
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          },
+                          "leaves_provider": {
+                            "state": {
+                              "Properties": {
+                                "persistent": "false",
+                                "distance": "1"
+                              },
+                              "Name": "minecraft:dark_oak_leaves"
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          },
+                          "foliage_placer": {
+                            "radius": 3,
+                            "offset": 1,
+                            "height": 2,
+                            "type": "minecraft:fancy_foliage_placer"
+                          },
+                          "trunk_placer": {
+                            "base_height": 12,
+                            "height_rand_a": 4,
+                            "height_rand_b": 4,
+                            "type": "minecraft:fancy_trunk_placer"
+                          }
+                        },
+                        "type": "minecraft:tree"
+                      },
+                      {
+                        "config": {
+                          "can_replace": true,
+                          "project": false,
+                          "need_water": false,
+                          "xspread": 1,
+                          "yspread": 1,
+                          "zspread": 0,
+                          "whitelist": [
+                            {
+                              "Name": "minecraft:snow_block"
+                            },
+                            {
+                              "Properties": {
+                                "axis": "y"
+                              },
+                              "Name": "minecraft:birch_wood"
+                            }
+                          ],
+                          "blacklist": [],
+                          "tries": 3,
+                          "state_provider": {
+                            "state": {
+                              "Properties": {
+                                "axis": "y"
+                              },
+                              "Name": "minecraft:birch_wood"
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          },
+                          "block_placer": {
+                            "type": "minecraft:simple_block_placer"
+                          }
+                        },
+                        "type": "minecraft:random_patch"
+                      },
+                      {
+                        "config": {
+                          "can_replace": true,
+                          "project": false,
+                          "need_water": false,
+                          "xspread": 0,
+                          "yspread": 1,
+                          "zspread": 1,
+                          "whitelist": [
+                            {
+                              "Name": "minecraft:snow_block"
+                            },
+                            {
+                              "Properties": {
+                                "axis": "y"
+                              },
+                              "Name": "minecraft:birch_wood"
+                            }
+                          ],
+                          "blacklist": [],
+                          "tries": 3,
+                          "state_provider": {
+                            "state": {
+                              "Properties": {
+                                "axis": "y"
+                              },
+                              "Name": "minecraft:birch_wood"
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          },
+                          "block_placer": {
+                            "type": "minecraft:simple_block_placer"
+                          }
+                        },
+                        "type": "minecraft:random_patch"
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_random_selector"
+                },
+                "decorator": {
+                  "config": {
+                    "count": 32
+                  },
+                  "type": "minecraft:count"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "chance": 0.5
+          }
+        ],
+        "default": {
+          "config": {
+            "feature": {
+              "config": {
+                "features": [
+                  {
+                    "config": {
+                      "max_water_depth": 0,
+                      "ignore_vines": true,
+                      "heightmap": "OCEAN_FLOOR_WG",
+                      "minimum_size": {
+                        "limit": 0,
+                        "lower_size": 0,
+                        "upper_size": 0,
+                        "type": "minecraft:two_layers_feature_size"
+                      },
+                      "decorators": [
+                        {
+                          "provider": {
+                            "state": {
+                              "Name": "minecraft:snow_block"
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          },
+                          "type": "minecraft:alter_ground"
+                        }
+                      ],
+                      "trunk_provider": {
+                        "state": {
+                          "Properties": {
+                            "axis": "y"
+                          },
+                          "Name": "minecraft:birch_log"
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      },
+                      "leaves_provider": {
+                        "state": {
+                          "Properties": {
+                            "persistent": "false",
+                            "distance": "1"
+                          },
+                          "Name": "minecraft:dark_oak_leaves"
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      },
+                      "foliage_placer": {
+                        "radius": 2,
+                        "offset": 1,
+                        "type": "minecraft:acacia_foliage_placer"
+                      },
+                      "trunk_placer": {
+                        "base_height": 14,
+                        "height_rand_a": 4,
+                        "height_rand_b": 4,
+                        "type": "minecraft:fancy_trunk_placer"
+                      }
+                    },
+                    "type": "minecraft:tree"
+                  },
+                  {
+                    "config": {
+                      "can_replace": true,
+                      "project": false,
+                      "need_water": false,
+                      "xspread": 1,
+                      "yspread": 1,
+                      "zspread": 0,
+                      "whitelist": [
+                        {
+                          "Name": "minecraft:snow_block"
+                        },
+                        {
+                          "Properties": {
+                            "axis": "y"
+                          },
+                          "Name": "minecraft:birch_wood"
+                        }
+                      ],
+                      "blacklist": [],
+                      "tries": 3,
+                      "state_provider": {
+                        "state": {
+                          "Properties": {
+                            "axis": "y"
+                          },
+                          "Name": "minecraft:birch_wood"
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      },
+                      "block_placer": {
+                        "type": "minecraft:simple_block_placer"
+                      }
+                    },
+                    "type": "minecraft:random_patch"
+                  },
+                  {
+                    "config": {
+                      "can_replace": true,
+                      "project": false,
+                      "need_water": false,
+                      "xspread": 0,
+                      "yspread": 1,
+                      "zspread": 1,
+                      "whitelist": [
+                        {
+                          "Name": "minecraft:snow_block"
+                        },
+                        {
+                          "Properties": {
+                            "axis": "y"
+                          },
+                          "Name": "minecraft:birch_wood"
+                        }
+                      ],
+                      "blacklist": [],
+                      "tries": 3,
+                      "state_provider": {
+                        "state": {
+                          "Properties": {
+                            "axis": "y"
+                          },
+                          "Name": "minecraft:birch_wood"
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      },
+                      "block_placer": {
+                        "type": "minecraft:simple_block_placer"
+                      }
+                    },
+                    "type": "minecraft:random_patch"
+                  }
+                ]
+              },
+              "type": "minecraft:simple_random_selector"
+            },
+            "decorator": {
+              "config": {
+                "count": 32
+              },
+              "type": "minecraft:count"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:random_selector"
+    },
+    "decorator": {
+      "config": {
+        "outer": {
+          "config": {},
+          "type": "minecraft:iceberg"
+        },
+        "inner": {
+          "config": {},
+          "type": "minecraft:heightmap_world_surface"
+        }
+      },
+      "type": "minecraft:decorated"
+    }
+  },
+  "type": "minecraft:decorated"
+}

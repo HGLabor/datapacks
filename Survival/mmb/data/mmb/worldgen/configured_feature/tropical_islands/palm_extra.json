@@ -1,0 +1,297 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "features": [
+                  {
+                    "feature": {
+                      "config": {
+                        "to_place": {
+                          "Properties": {
+                            "snowy": "false"
+                          },
+                          "Name": "minecraft:grass_block"
+                        },
+                        "place_on": [
+                          {
+                            "Name": "minecraft:sand"
+                          }
+                        ],
+                        "place_in": [
+                          {
+                            "Name": "minecraft:air"
+                          }
+                        ],
+                        "place_under": [
+                          {
+                            "Name": "minecraft:air"
+                          }
+                        ]
+                      },
+                      "type": "minecraft:simple_block"
+                    },
+                    "chance": 0.25
+                  },
+                  {
+                    "feature": {
+                      "config": {
+                        "feature": {
+                          "config": {
+                            "can_replace": true,
+                            "project": false,
+                            "need_water": false,
+                            "xspread": 2,
+                            "yspread": 3,
+                            "zspread": 0,
+                            "whitelist": [
+                              {
+                                "Properties": {
+                                  "facing": "east"
+                                },
+                                "Name": "minecraft:magenta_glazed_terracotta"
+                              }
+                            ],
+                            "blacklist": [],
+                            "tries": 256,
+                            "state_provider": {
+                              "state": {
+                                "Properties": {
+                                  "persistent": "false",
+                                  "distance": "1"
+                                },
+                                "Name": "minecraft:jungle_leaves"
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            },
+                            "block_placer": {
+                              "min_size": 2,
+                              "extra_size": 0,
+                              "type": "minecraft:column_placer"
+                            }
+                          },
+                          "type": "minecraft:random_patch"
+                        },
+                        "decorator": {
+                          "config": {},
+                          "type": "minecraft:heightmap"
+                        }
+                      },
+                      "type": "minecraft:decorated"
+                    },
+                    "chance": 0.25
+                  },
+                  {
+                    "feature": {
+                      "config": {
+                        "feature": {
+                          "config": {
+                            "can_replace": true,
+                            "project": false,
+                            "need_water": false,
+                            "xspread": 0,
+                            "yspread": 3,
+                            "zspread": 2,
+                            "whitelist": [
+                              {
+                                "Properties": {
+                                  "facing": "east"
+                                },
+                                "Name": "minecraft:magenta_glazed_terracotta"
+                              }
+                            ],
+                            "blacklist": [],
+                            "tries": 256,
+                            "state_provider": {
+                              "state": {
+                                "Properties": {
+                                  "persistent": "false",
+                                  "distance": "1"
+                                },
+                                "Name": "minecraft:jungle_leaves"
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            },
+                            "block_placer": {
+                              "min_size": 2,
+                              "extra_size": 0,
+                              "type": "minecraft:column_placer"
+                            }
+                          },
+                          "type": "minecraft:random_patch"
+                        },
+                        "decorator": {
+                          "config": {},
+                          "type": "minecraft:heightmap"
+                        }
+                      },
+                      "type": "minecraft:decorated"
+                    },
+                    "chance": 0.3
+                  },
+                  {
+                    "feature": {
+                      "config": {
+                        "feature": {
+                          "config": {
+                            "can_replace": true,
+                            "project": false,
+                            "need_water": false,
+                            "xspread": 0,
+                            "yspread": 0,
+                            "zspread": 0,
+                            "whitelist": [
+                              {
+                                "Properties": {
+                                  "axis": "y"
+                                },
+                                "Name": "minecraft:jungle_log"
+                              }
+                            ],
+                            "blacklist": [],
+                            "tries": 1,
+                            "state_provider": {
+                              "state": {
+                                "Properties": {
+                                  "persistent": "false",
+                                  "distance": "1"
+                                },
+                                "Name": "minecraft:jungle_leaves"
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            },
+                            "block_placer": {
+                              "type": "minecraft:simple_block_placer"
+                            }
+                          },
+                          "type": "minecraft:random_patch"
+                        },
+                        "decorator": {
+                          "config": {},
+                          "type": "minecraft:heightmap"
+                        }
+                      },
+                      "type": "minecraft:decorated"
+                    },
+                    "chance": 0.2
+                  },
+                  {
+                    "feature": {
+                      "config": {
+                        "to_place": {
+                          "Properties": {
+                            "axis": "y"
+                          },
+                          "Name": "minecraft:jungle_log"
+                        },
+                        "place_on": [
+                          {
+                            "Name": "minecraft:sand"
+                          }
+                        ],
+                        "place_in": [
+                          {
+                            "Name": "minecraft:dirt"
+                          }
+                        ],
+                        "place_under": [
+                          {
+                            "Properties": {
+                              "axis": "y"
+                            },
+                            "Name": "minecraft:jungle_log"
+                          }
+                        ]
+                      },
+                      "type": "minecraft:simple_block"
+                    },
+                    "chance": 0.25
+                  }
+                ],
+                "default": {
+                  "config": {
+                    "max_water_depth": 0,
+                    "ignore_vines": true,
+                    "heightmap": "WORLD_SURFACE",
+                    "minimum_size": {
+                      "limit": 1,
+                      "lower_size": 0,
+                      "upper_size": 1,
+                      "type": "minecraft:two_layers_feature_size"
+                    },
+                    "decorators": [],
+                    "trunk_provider": {
+                      "state": {
+                        "Properties": {
+                          "axis": "y"
+                        },
+                        "Name": "minecraft:jungle_log"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "leaves_provider": {
+                      "state": {
+                        "Properties": {
+                          "facing": "east"
+                        },
+                        "Name": "minecraft:magenta_glazed_terracotta"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "foliage_placer": {
+                      "radius": 0,
+                      "offset": 0,
+                      "height": 3,
+                      "type": "minecraft:bush_foliage_placer"
+                    },
+                    "trunk_placer": {
+                      "base_height": 5,
+                      "height_rand_a": 1,
+                      "height_rand_b": 0,
+                      "type": "minecraft:straight_trunk_placer"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                }
+              },
+              "type": "minecraft:random_selector"
+            },
+            "decorator": {
+              "config": {
+                "count": 64
+              },
+              "type": "minecraft:count"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap_world_surface"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 0,
+        "extra_chance": 0.4,
+        "extra_count": 1
+      },
+      "type": "minecraft:count_extra"
+    }
+  },
+  "type": "minecraft:decorated"
+}

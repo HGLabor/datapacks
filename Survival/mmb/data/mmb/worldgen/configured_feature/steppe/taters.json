@@ -1,0 +1,97 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "features": [
+                  {
+                    "config": {
+                      "to_place": {
+                        "Properties": {
+                          "age": "7"
+                        },
+                        "Name": "minecraft:potatoes"
+                      },
+                      "place_on": [
+                        {
+                          "Properties": {
+                            "moisture": "6"
+                          },
+                          "Name": "minecraft:farmland"
+                        }
+                      ],
+                      "place_in": [
+                        {
+                          "Name": "minecraft:air"
+                        },
+                        {
+                          "Name": "minecraft:grass"
+                        }
+                      ],
+                      "place_under": [
+                        {
+                          "Name": "minecraft:air"
+                        }
+                      ]
+                    },
+                    "type": "minecraft:simple_block"
+                  },
+                  {
+                    "config": {
+                      "target": {
+                        "Properties": {
+                          "snowy": "false"
+                        },
+                        "Name": "minecraft:grass_block"
+                      },
+                      "state": {
+                        "Properties": {
+                          "moisture": "6"
+                        },
+                        "Name": "minecraft:farmland"
+                      },
+                      "radius": 0
+                    },
+                    "type": "minecraft:netherrack_replace_blobs"
+                  }
+                ]
+              },
+              "type": "minecraft:simple_random_selector"
+            },
+            "decorator": {
+              "config": {
+                "count": 32
+              },
+              "type": "minecraft:count"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap_world_surface"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "chance": 64
+      },
+      "type": "minecraft:chance"
+    }
+  },
+  "type": "minecraft:decorated"
+}

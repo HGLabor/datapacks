@@ -1,0 +1,287 @@
+{
+  "config": {
+    "features": [
+      {
+        "config": {
+          "can_replace": true,
+          "project": false,
+          "need_water": false,
+          "xspread": 1,
+          "yspread": 9,
+          "zspread": 1,
+          "whitelist": [
+            {
+              "Properties": {
+                "snowy": "false"
+              },
+              "Name": "minecraft:grass_block"
+            },
+            {
+              "Properties": {
+                "snowy": "false"
+              },
+              "Name": "minecraft:podzol"
+            },
+            {
+              "Name": "minecraft:coarse_dirt"
+            },
+            {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:spruce_log"
+            },
+            {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:spruce_wood"
+            }
+          ],
+          "blacklist": [],
+          "tries": 240,
+          "state_provider": {
+            "state": {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:spruce_log"
+            },
+            "type": "minecraft:simple_state_provider"
+          },
+          "block_placer": {
+            "min_size": 1,
+            "extra_size": 2,
+            "type": "minecraft:column_placer"
+          }
+        },
+        "type": "minecraft:random_patch"
+      },
+      {
+        "config": {
+          "can_replace": true,
+          "project": false,
+          "need_water": false,
+          "xspread": 2,
+          "yspread": 5,
+          "zspread": 1,
+          "whitelist": [
+            {
+              "Properties": {
+                "snowy": "false"
+              },
+              "Name": "minecraft:grass_block"
+            },
+            {
+              "Properties": {
+                "snowy": "false"
+              },
+              "Name": "minecraft:podzol"
+            },
+            {
+              "Name": "minecraft:coarse_dirt"
+            },
+            {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:spruce_log"
+            },
+            {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:spruce_wood"
+            }
+          ],
+          "blacklist": [],
+          "tries": 120,
+          "state_provider": {
+            "state": {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:spruce_wood"
+            },
+            "type": "minecraft:simple_state_provider"
+          },
+          "block_placer": {
+            "min_size": 1,
+            "extra_size": 3,
+            "type": "minecraft:column_placer"
+          }
+        },
+        "type": "minecraft:random_patch"
+      },
+      {
+        "config": {
+          "can_replace": true,
+          "project": false,
+          "need_water": false,
+          "xspread": 1,
+          "yspread": 5,
+          "zspread": 2,
+          "whitelist": [
+            {
+              "Properties": {
+                "snowy": "false"
+              },
+              "Name": "minecraft:grass_block"
+            },
+            {
+              "Properties": {
+                "snowy": "false"
+              },
+              "Name": "minecraft:podzol"
+            },
+            {
+              "Name": "minecraft:coarse_dirt"
+            },
+            {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:spruce_log"
+            },
+            {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:spruce_wood"
+            }
+          ],
+          "blacklist": [],
+          "tries": 120,
+          "state_provider": {
+            "state": {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:spruce_wood"
+            },
+            "type": "minecraft:simple_state_provider"
+          },
+          "block_placer": {
+            "min_size": 1,
+            "extra_size": 3,
+            "type": "minecraft:column_placer"
+          }
+        },
+        "type": "minecraft:random_patch"
+      },
+      {
+        "config": {
+          "can_replace": true,
+          "project": false,
+          "need_water": false,
+          "xspread": 3,
+          "yspread": 2,
+          "zspread": 2,
+          "whitelist": [
+            {
+              "Properties": {
+                "snowy": "false"
+              },
+              "Name": "minecraft:grass_block"
+            },
+            {
+              "Properties": {
+                "snowy": "false"
+              },
+              "Name": "minecraft:podzol"
+            },
+            {
+              "Name": "minecraft:coarse_dirt"
+            },
+            {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:spruce_log"
+            },
+            {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:spruce_wood"
+            }
+          ],
+          "blacklist": [],
+          "tries": 60,
+          "state_provider": {
+            "state": {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:spruce_wood"
+            },
+            "type": "minecraft:simple_state_provider"
+          },
+          "block_placer": {
+            "min_size": 1,
+            "extra_size": 2,
+            "type": "minecraft:column_placer"
+          }
+        },
+        "type": "minecraft:random_patch"
+      },
+      {
+        "config": {
+          "can_replace": true,
+          "project": false,
+          "need_water": false,
+          "xspread": 2,
+          "yspread": 2,
+          "zspread": 3,
+          "whitelist": [
+            {
+              "Properties": {
+                "snowy": "false"
+              },
+              "Name": "minecraft:grass_block"
+            },
+            {
+              "Properties": {
+                "snowy": "false"
+              },
+              "Name": "minecraft:podzol"
+            },
+            {
+              "Name": "minecraft:coarse_dirt"
+            },
+            {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:spruce_log"
+            },
+            {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:spruce_wood"
+            }
+          ],
+          "blacklist": [],
+          "tries": 60,
+          "state_provider": {
+            "state": {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "minecraft:spruce_wood"
+            },
+            "type": "minecraft:simple_state_provider"
+          },
+          "block_placer": {
+            "min_size": 1,
+            "extra_size": 2,
+            "type": "minecraft:column_placer"
+          }
+        },
+        "type": "minecraft:random_patch"
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}
