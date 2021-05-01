@@ -54,15 +54,13 @@
       "minecraft:patch_grass_normal",
       "minecraft:patch_dead_bush",
       "minecraft:patch_waterlilly",
-      "minecraft:patch_sugar_cane_swamp",
       "minecraft:patch_pumpkin",
       "minecraft:spring_water",
       "minecraft:spring_lava",
       "minecraft:seagrass_swamp",
-
       "hglabor:swamp/mushroom_brown",
       "hglabor:swamp/mushroom_red",
-      "hglabor:swamp/swamp_tree"
+      "hglabor:swamp/tree"
     ],
     [
       "minecraft:freeze_top_layer"
