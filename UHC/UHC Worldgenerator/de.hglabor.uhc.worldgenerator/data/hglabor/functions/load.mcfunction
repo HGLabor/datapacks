@@ -1,0 +1,2 @@
+scoreboard objectives add health health
+scoreboard objectives setdisplay belowName health
