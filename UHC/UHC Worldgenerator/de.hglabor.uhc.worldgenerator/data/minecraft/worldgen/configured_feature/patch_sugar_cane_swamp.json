@@ -12,7 +12,7 @@
             "zspread": 4,
             "whitelist": [],
             "blacklist": [],
-            "tries": 20,
+            "tries": 40,
             "state_provider": {
               "state": {
                 "Properties": {
@@ -24,7 +24,7 @@
             },
             "block_placer": {
               "min_size": 2,
-              "extra_size": 2,
+              "extra_size": 3,
               "type": "minecraft:column_placer"
             }
           },
@@ -48,7 +48,7 @@
     },
     "decorator": {
       "config": {
-        "count": 20
+        "count": 30
       },
       "type": "minecraft:count"
     }
