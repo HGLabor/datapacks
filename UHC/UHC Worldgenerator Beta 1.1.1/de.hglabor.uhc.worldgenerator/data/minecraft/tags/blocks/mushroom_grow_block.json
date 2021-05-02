@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "minecraft:mycelium",
-    "minecraft:podzol",
-    "minecraft:grass_block",
-    "minecraft:snow_block"
-  ]
-}

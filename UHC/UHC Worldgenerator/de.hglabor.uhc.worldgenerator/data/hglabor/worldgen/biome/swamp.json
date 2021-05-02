@@ -1,5 +1,5 @@
 {
-  "scale": 0.2,
+  "scale": 0.1,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -7,15 +7,17 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "sky_color": 8037887,
+    "grass_color_modifier": "swamp",
+    "sky_color": 7907327,
+    "foliage_color": 6975545,
     "fog_color": 12638463,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_color": 6388580,
+    "water_fog_color": 2302743
   },
-  "surface_builder": "minecraft:grass",
+  "surface_builder": "minecraft:swamp",
   "carvers": {
     "air": [
-      "minecraft:cave",
+      "hglabor:cave",
       "minecraft:canyon"
     ]
   },
@@ -27,6 +29,7 @@
     ],
     [],
     [
+      "minecraft:fossil",
       "minecraft:monster_room"
     ],
     [],
@@ -43,29 +46,30 @@
       "minecraft:ore_redstone",
       "minecraft:ore_diamond",
       "minecraft:ore_lapis",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_clay"
     ],
     [],
     [
-      "minecraft:forest_flower_vegetation",
-      "minecraft:trees_birch",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_forest",
-      "minecraft:patch_sugar_cane",
+      "minecraft:flower_swamp",
+      "minecraft:patch_grass_normal",
+      "minecraft:patch_dead_bush",
+      "minecraft:patch_waterlilly",
       "minecraft:patch_pumpkin",
       "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:spring_lava",
+      "minecraft:seagrass_swamp",
+      "hglabor:swamp/mushroom_brown",
+      "hglabor:swamp/mushroom_red",
+      "hglabor:swamp/tree"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
   "starts": [
+    "minecraft:swamp_hut",
     "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:ruined_portal"
+    "minecraft:ruined_portal_swamp"
   ],
   "spawners": {
     "monster": [
@@ -116,6 +120,12 @@
         "weight": 5,
         "minCount": 1,
         "maxCount": 1
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
     "creature": [
@@ -159,8 +169,8 @@
   "spawn_costs": {},
   "player_spawn_friendly": false,
   "precipitation": "rain",
-  "temperature": 0.6,
-  "downfall": 0.6,
-  "category": "forest",
-  "depth": 0.1
+  "temperature": 0.8,
+  "downfall": 0.9,
+  "category": "swamp",
+  "depth": -0.2
 }
