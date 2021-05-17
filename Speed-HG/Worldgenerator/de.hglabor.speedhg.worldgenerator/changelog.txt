@@ -1,0 +1,41 @@
+Release 2.0.0
+
+added biomes: 
+
+ - basswood_forest
+ - birch_forest
+ - crimson_forest
+ - dark_forest
+ - dead_landscape
+ - desert
+ - extreme_hills
+ - giant_spruce_taiga
+ - jungle
+ - mushroom_fields
+ - plains
+ - savanna
+ - swamp
+ - taiga
+ - warped_forest
+
+added features: 
+ - new birchs
+ - small rocks
+ - dead trees
+ - basswoods
+ - new jungle trees
+ - big mushrooms
+ - ancient oak
+ - cypress
+
+Release 2.1.0
+
+added biomes:
+
+
+ - flowered hills
+
+added features: 
+
+- new trees in flowered hills
+- new trees in jungle
